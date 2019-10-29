@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family:"NYTImperial Italic";
+    src:url("imperial-italic-500.woff2") format("woff2"),url("imperial-italic-500.woff") format("woff"),url("imperial-italic-500.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        
