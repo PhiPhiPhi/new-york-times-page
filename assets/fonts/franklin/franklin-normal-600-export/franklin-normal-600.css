@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family:"NYTFranklin Semibold";
+    src:url("franklin-normal-600.woff2") format("woff2"),url("franklin-normal-600.woff") format("woff"),url("franklin-normal-600.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        

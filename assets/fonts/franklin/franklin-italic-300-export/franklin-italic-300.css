@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family:"NYTFranklin LightItalic";
+    src:url("franklin-italic-300.woff2") format("woff2"),url("franklin-italic-300.woff") format("woff"),url("franklin-italic-300.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        
