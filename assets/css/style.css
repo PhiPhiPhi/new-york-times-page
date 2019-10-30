@@ -11,11 +11,16 @@
 }
 
 @font-face {
-  font-family:"cheltenham-small-normal";
-  src:url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.woff2") format("woff2"),url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.woff") format("woff"),url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.ttf") format("opentype");
-  font-style:normal;font-weight:400;
+  font-family: "cheltenham-small-normal";
+  src: url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.woff2")
+      format("woff2"),
+    url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.woff")
+      format("woff"),
+    url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.ttf")
+      format("opentype");
+  font-style: normal;
+  font-weight: 400;
 }
-      
 
 @font-face {
   font-family: "NYTFranklin Bold";
@@ -183,16 +188,16 @@
 }
 
 .sidebar_1_title {
-  font-family: 'NYTFranklin Bold', helvetica, arial, sans-serif;
-    font-weight: 700;
-    color: rgb(0, 0, 0);
-    margin-top: 0px;
-    margin-bottom: 15px;
-    padding-bottom: 12px;
-    font-size: 14px;
-    line-height: 14px;
-    letter-spacing: 0.02em;
-    border-bottom: 1px solid rgb(226, 226, 226);
+  font-family: "NYTFranklin Bold", helvetica, arial, sans-serif;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 .picked_article {
@@ -202,7 +207,7 @@
 
 #picked_article_3 {
   position: relative;
-    top: -15px;
+  top: -15px;
 }
 
 #pick_title_2 {
@@ -215,8 +220,8 @@
 
 .pick_thumbnail {
   display: block;
-    width: 75px;
-    margin-left: 0px;
+  width: 75px;
+  margin-left: 0px;
 }
 #nav-right {
   float: right;
@@ -240,7 +245,8 @@
   width: inherit;
 }
 
-.article_header, .article_body {
+.article_header,
+.article_body {
   margin-bottom: 20px;
   color: #121212;
   width: 600px;
@@ -335,12 +341,10 @@ header {
   display: inline-block;
   padding: 5px;
   text-align: center;
-
 }
 
-.share_on_facebook img{
+.share_on_facebook img {
   height: 16px;
-
 }
 .twitter_logo {
   height: 16px;
@@ -375,7 +379,7 @@ header {
 
 .bubble_link {
   position: relative;
-    bottom: 5px;
+  bottom: 5px;
 }
 .bookmark_link {
   vertical-align: top;
@@ -384,7 +388,7 @@ header {
   color: rgb(0, 0, 0);
   font-size: 0.75rem;
   line-height: 0.75rem;
-  font-family: 'NYTFranklin Semibold';
+  font-family: "NYTFranklin Semibold";
   vertical-align: baseline;
   text-transform: uppercase;
   position: relative;
@@ -392,7 +396,6 @@ header {
   top: 9px;
   float: right;
   z-index: 9999;
-    
 }
 
 .main-article {
@@ -407,15 +410,8 @@ header {
   margin-top: 30px;
 }
 
-/* #paragraph-1,
-#paragraph-2,
-#paragraph-3,
-#paragraph-4,
-#paragraph-5,
-#paragraph-6  */
-
 p {
-    margin-bottom: 0.9375rem;
+  margin-bottom: 0.9375rem;
 }
 .nav_container {
   position: fixed;
@@ -438,25 +434,159 @@ p {
 }
 main {
   width: 70%;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
-.pick_title, .pick_title:hover {
+.pick_title,
+.pick_title:hover {
   position: relative;
-    left: 80px;
-    bottom: 60px;
+  left: 80px;
+  bottom: 60px;
   vertical-align: top;
-  font-family: 'cheltenham-small-normal', georgia, "times new roman";
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    width: calc(100% - 85px);
-    margin: auto 0px auto 10px;
-    color: rgb(51, 51, 51);
-    padding-bottom: 16px;
-    cursor: pointer;
-    display: block;
+  font-family: "cheltenham-small-normal", georgia, "times new roman";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  width: calc(100% - 85px);
+  margin: auto 0px auto 10px;
+  color: rgb(51, 51, 51);
+  padding-bottom: 16px;
+  cursor: pointer;
+  display: block;
 }
 .pick_title:hover {
   text-decoration: underline;
 }
+
+.account-container {
+  font-size: 0.9375rem;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 2px;
+  padding: 0.75rem;
+  line-height: 1.25rem;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  max-width: 500px;
+  color: #333;
+  margin-top: 50px;
+  position: relative;
+  left: 365px;
+}
+
+.illustrations-container {
+  width: 945px;
+  height: 723px;
+  margin: 30px 0;
+  position: relative;
+  right: 100px;
+}
+
+.illustrations-heading {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 2px;
+}
+
+.summary-text {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #666;
+}
+
+.infiltration {
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+}
+
+.universe-cube {
+  top: 35.8264%;
+  left: 0.0436%;
+  width: 228px;
+  height: 120px;
+  position: absolute;
+  color: #333;
+}
+
+.paragraph {
+  font-size: 11px;
+  line-height: 17px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  width: 228px;
+}
+
+.paragraph-span {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.enough-cube {
+  top: 35.8264%;
+  left: 25.5619%;
+  width: 228px;
+  height: 120px;
+  position: absolute;
+  color: #333;
+}
+
+.distant-cube {
+  top: 35.8264%;
+  left: 51.08%;
+  width: 228px;
+  height: 120px;
+  position: absolute;
+  color: #333;
+}
+
+.coffee-cube {
+  top: 35.8264%;
+  left: 76.5982%;
+  width: 228px;
+  height: 120px;
+  position: absolute;
+  color: #333;
+}
+
+.time-cube {
+  top: 73.4375%;
+  left: 0.0436%;
+  width: 228px;
+  height: 120px;
+  position: absolute;
+  color: #333;
+}
+
+.inflation-cube {
+  top: 73.4375%;
+  left: 25.5619%;
+  width: 228px;
+  height: 120px;
+  position: absolute;
+  color: #333;
+}
+
+.fluctuation-cube {
+  top: 73.4375%;
+  left: 51.0800%;
+  width: 228px;
+  height: 120px;
+  position: absolute;
+  color: #333;
+}
+
+.expansion-cube {
+  top: 73.4375%;
+  left: 76.5982%;
+  width: 228px;
+  height: 120px;
+  position: absolute;
+  color: #333;
+}
+
