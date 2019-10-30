@@ -11,6 +11,13 @@
 }
 
 @font-face {
+  font-family:"cheltenham-small-normal";
+  src:url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.woff2") format("woff2"),url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.woff") format("woff"),url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.ttf") format("opentype");
+  font-style:normal;font-weight:400;
+}
+      
+
+@font-face {
   font-family: "NYTFranklin Bold";
   src: url("../fonts/franklin/franklin-normal-700-export/franklin-normal-700.woff2")
       format("woff2"),
@@ -161,7 +168,7 @@
   position: relative;
   width: 600px;
   max-width: 700px;
-  margin: 80px auto 1rem auto;
+  margin: 100px auto 1rem auto;
   font-size: 1.25rem;
   line-height: 3rem;
   color: #121212;
@@ -169,6 +176,47 @@
     serif;
   font-weight: 700;
   font-style: italic;
+}
+.article_normal_link {
+  text-decoration: underline;
+  color: #326891;
+}
+
+.sidebar_1_title {
+  font-family: 'NYTFranklin Bold', helvetica, arial, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.picked_article {
+  margin-bottom: -30px;
+  width: 220px;
+}
+
+#picked_article_3 {
+  position: relative;
+    top: -15px;
+}
+
+#pick_title_2 {
+  bottom: 60px;
+}
+
+#pick_title_3 {
+  top: -70px;
+}
+
+.pick_thumbnail {
+  display: block;
+    width: 75px;
+    margin-left: 0px;
 }
 #nav-right {
   float: right;
@@ -192,7 +240,7 @@
   width: inherit;
 }
 
-.article_header {
+.article_header, .article_body {
   margin-bottom: 20px;
   color: #121212;
   width: 600px;
@@ -202,6 +250,7 @@
   font: inherit;
   font-size: 100%;
 }
+
 .hero_image {
   width: 100%;
 }
@@ -305,7 +354,7 @@ header {
 }
 .sharing_link {
   text-decoration: none;
-  margin-right: 16px;
+  margin-right: 10px;
 }
 .social_actions {
   display: inline-block;
@@ -339,7 +388,7 @@ header {
   vertical-align: baseline;
   text-transform: uppercase;
   position: relative;
-  right: 43px;
+  right: 38px;
   top: 9px;
   float: right;
   z-index: 9999;
@@ -379,4 +428,35 @@ p {
   border-bottom: none;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+.editors_pick {
+  float: right;
+  max-width: 210px;
+  position: relative;
+  top: 800px;
+  right: 60px;
+}
+main {
+  width: 70%;
+    margin: 0 auto;
+}
+
+.pick_title, .pick_title:hover {
+  position: relative;
+    left: 80px;
+    bottom: 60px;
+  vertical-align: top;
+  font-family: 'cheltenham-small-normal', georgia, "times new roman";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    width: calc(100% - 85px);
+    margin: auto 0px auto 10px;
+    color: rgb(51, 51, 51);
+    padding-bottom: 16px;
+    cursor: pointer;
+    display: block;
+}
+.pick_title:hover {
+  text-decoration: underline;
 }
