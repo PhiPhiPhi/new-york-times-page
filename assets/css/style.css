@@ -11,6 +11,21 @@
 }
 
 @font-face {
+  font-family:"NYTFranklin Light";
+  src:url("../fonts/franklin/franklin-normal-300-export/franklin-normal-300.woff2") format("woff2"),url("../fonts/franklin/franklin-normal-300-export/franklin-normal-300.woff") format("woff"),url("../fonts/franklin/franklin-normal-300-export/franklin-normal-300.ttf") format("opentype");
+  font-style:normal;font-weight:400;
+}
+      
+
+
+@font-face {
+  font-family:"NYTCheltenham Bold";
+  src:url("../fonts/cheltenham/cheltenham-normal-700-export/cheltenham-normal-700.woff2") format("woff2"),url("../fonts/cheltenham/cheltenham-normal-700-export/cheltenham-normal-700.woff") format("woff"),url("../fonts/cheltenham/cheltenham-normal-700-export/cheltenham-normal-700.ttf") format("opentype");
+  font-style:normal;font-weight:400;
+}
+      
+
+@font-face {
   font-family: "cheltenham-small-normal";
   src: url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.woff2")
       format("woff2"),
@@ -69,6 +84,12 @@
   font-style: normal;
   font-weight: 400;
 }
+@font-face {
+  font-family:"NYTImperial Regular";
+  src:url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.woff2") format("woff2"),url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.woff") format("woff"),url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.ttf") format("opentype");
+  font-style:normal;font-weight:400;
+}
+      
 
 * {
   margin: 0;
@@ -473,11 +494,33 @@ main {
 }
 
 .illustrations-container {
-  width: 945px;
+  width: 946px;
   height: 723px;
   margin: 30px 0;
   position: relative;
-  right: 100px;
+  right: 150px;
+}
+
+.interactive-credit p {
+  font-size: .875rem;
+line-height: 18px;
+line-height: 1.125rem;
+font-weight: 500;
+font-style: normal;
+font-family: "NYTFranklin Medium",arial,helvetica,sans-serif;
+position: relative;
+top: 40px;
+}
+
+
+.interactive-credit::before{
+  position: absolute;
+  content: "";
+  display: inline-block;
+  margin: 0 auto;
+  width: 60px;
+  padding-top: 20px;
+  border-bottom: 1px solid #000;
 }
 
 .illustrations-heading {
@@ -486,6 +529,7 @@ main {
   font-weight: 700;
   font-style: normal;
   margin-bottom: 2px;
+  font-family: "NYTCheltenham Bold",georgia,times new roman,times,serif;
 }
 
 .summary-text {
@@ -501,7 +545,7 @@ main {
 }
 
 .universe-cube {
-  top: 35.8264%;
+  top: 30.8264%;
   left: 0.0436%;
   width: 228px;
   height: 120px;
@@ -510,25 +554,27 @@ main {
 }
 
 .paragraph {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 17px;
   font-weight: 300;
   font-style: normal;
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-family: 'NYTFranklin Light', arial, helvetica, sans-serif;
   width: 228px;
 }
 
 .paragraph-span {
   font-size: 11px;
+  padding-right: 10px;
   font-weight: bold;
   letter-spacing: 0.05em;
   line-height: 17px;
   text-transform: uppercase;
   color: black;
+  font-family: 'NYTFranklin Bold', arial, helvetica, sans-serif;
 }
 
 .enough-cube {
-  top: 35.8264%;
+  top: 30.8264%;
   left: 25.5619%;
   width: 228px;
   height: 120px;
@@ -537,7 +583,7 @@ main {
 }
 
 .distant-cube {
-  top: 35.8264%;
+  top: 30.8264%;
   left: 51.08%;
   width: 228px;
   height: 120px;
@@ -546,7 +592,7 @@ main {
 }
 
 .coffee-cube {
-  top: 35.8264%;
+  top: 30.8264%;
   left: 76.5982%;
   width: 228px;
   height: 120px;
@@ -555,7 +601,7 @@ main {
 }
 
 .time-cube {
-  top: 73.4375%;
+  top: 69.4375%;
   left: 0.0436%;
   width: 228px;
   height: 120px;
@@ -564,7 +610,7 @@ main {
 }
 
 .inflation-cube {
-  top: 73.4375%;
+  top: 69.4375%;
   left: 25.5619%;
   width: 228px;
   height: 120px;
@@ -573,7 +619,7 @@ main {
 }
 
 .fluctuation-cube {
-  top: 73.4375%;
+  top: 69.4375%;
   left: 51.0800%;
   width: 228px;
   height: 120px;
@@ -582,7 +628,7 @@ main {
 }
 
 .expansion-cube {
-  top: 73.4375%;
+  top: 69.4375%;
   left: 76.5982%;
   width: 228px;
   height: 120px;
@@ -590,3 +636,33 @@ main {
   color: #333;
 }
 
+.section_title {
+  display: block;
+  padding: 20px 0;
+}
+
+.article_video_container {
+  margin: 43px auto;
+}
+
+.video_caption {
+  color: #666;
+font-family: 'NYTImperial Regular',georgia,'times new roman',times,serif;
+margin: 10px 0;
+text-align: left;
+}
+
+.video_caption_top {
+  font-size: 0.9375rem;
+line-height: 1.25rem;
+display: inline-block;
+}
+
+.video_caption_bottom {
+  color: #888;
+  font-size: 0.8125rem;
+  display: inline-block;
+  letter-spacing: 0.01em;
+  bottom: 10px;
+  position: relative;
+}
