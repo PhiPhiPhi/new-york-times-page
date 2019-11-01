@@ -7,32 +7,34 @@
     <title>New York Times</title>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
   <body>
-    <div id=nav_container class="nav_container">
-    <nav class="top-nav">
-      <div class="center-area">
-        <div id="nav-left">
-          <a class="menu" href="#"
-            ><img src="assets/images/menu.png" alt="menu-icon"
-          /></a>
-          <a class="search" href="#"
-            ><img src="assets/images/search.png" alt="search-icon"
-          /></a>
-          <a href="#" class="space-cosmos">space & cosmos</a>
+    <div id="nav_container" class="nav_container">
+      <nav class="top-nav">
+        <div class="center-area">
+          <div id="nav-left">
+            <a class="menu" href="#"
+              ><img src="assets/images/menu.png" alt="menu-icon"
+            /></a>
+            <a class="search" href="#"
+              ><img src="assets/images/search.png" alt="search-icon"
+            /></a>
+            <a href="#" class="space-cosmos">space & cosmos</a>
+          </div>
+          <div id="nav-center">
+            <a href="#" class="nyt-logo"
+              ><img src="assets/images/nyt-logo.png" alt="new york times logo"
+            /></a>
+          </div>
+          <div id="nav-right">
+            <a href="#" class="subscribe">Subscribe for full access</a>
+            <button class="login">Log in</button>
+          </div>
+          <div id="nav-clear"></div>
         </div>
-        <div id="nav-center">
-          <a href="#" class="nyt-logo"
-            ><img src="assets/images/nyt-logo.png" alt="new york times logo"
-          /></a>
-        </div>
-        <div id="nav-right">
-          <a href="#" class="subscribe">Subscribe for full access</a>
-          <button class="login">Log in</button>
-        </div>
-        <div id="nav-clear"></div>
-      </div>
-    </nav></div>
-    <header class="header-container">
+      </nav>
+    </div>
+    <header>
       <div class="heading">
         <h1>
           Space Ripples Reveal <br />
@@ -46,11 +48,6 @@
     the Big Bang 13.8 billion years ago."
           class="hero_image"
           src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-articleLarge.jpg?quality=75&amp;auto=webp&amp;disable=upscale"
-          srcset="
-            https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-articleLarge.jpg?quality=90&amp;auto=webp  600w,
-            https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-jumbo.jpg?quality=90&amp;auto=webp        1024w,
-            https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-superJumbo.jpg?quality=90&amp;auto=webp   2048w
-          "
         />
         <figcaption class="hero_image_caption">
           <span class="hero_img_desc"
@@ -78,74 +75,78 @@
             March 17, 2014
           </div>
           <div id="article_actions" class="article_actions">
-            <div id="social_actions" class="social_actions">
+            <div class="social_actions">
               <a href="#" class="sharing_link">
-                <span id="share_on_facebook" class="sharing share_on_facebook">
-                  <img src="../new-york-times-page/assets/images/article_header_icons-01.svg" alt="">
+                <span class="sharing share_on_facebook">
+                  <img
+                    src="/assets/images/article_header_icons-01.svg"
+                    alt="Facebook icon"
+                  />
                 </span>
-            </a>
-            <a href="#" class="sharing_link">
-                <span id="share_on_twitter" class="sharing share_on_twitter">
-                    <img class='twitter_logo' src="../new-york-times-page/assets/images/article_header_icons-02.svg" alt="">
+              </a>
+              <a href="#" class="sharing_link">
+                <span class="sharing share_on_twitter">
+                  <img
+                    class="twitter_logo"
+                    src="/assets/images/article_header_icons-02.svg"
+                    alt="Twitter icon"
+                  />
                 </span>
-            </a>
-            <a href="#" class="sharing_link">
-                <span id="share_on_mail" class="sharing share_on_mail">
-                  <img class='mail_logo'src="../new-york-times-page/assets/images/article_header_icons-03.svg"  alt="">
+              </a>
+              <a href="#" class="sharing_link">
+                <span class="sharing share_on_mail">
+                  <img
+                    class="mail_logo"
+                    src="/assets/images/article_header_icons-03.svg"
+                    alt="Mail icon"
+                  />
                 </span>
-            </a>
-            <a href="#" class="sharing_link">
+              </a>
+              <a href="#" class="sharing_link">
                 <span id="more_sharing" class="sharing more_sharing">
-                  <img class='share_logo'src="../new-york-times-page/assets/images/article_header_icons-04.svg"  alt="">
+                  <img
+                    class="share_logo"
+                    src="/assets/images/article_header_icons-04.svg"
+                    alt="share icon"
+                  />
                 </span>
-            </a>
+              </a>
             </div>
             <div class="other_actions">
               <a href="#" class="sharing_link bookmark_link">
                 <span id="bookmark" class="bookmark">
-                  <img class='bookmark_logo'src="../new-york-times-page/assets/images/article_header_icons-05.svg"  alt="">
+                  <img
+                    class="bookmark_logo"
+                    src="/assets/images/article_header_icons-05.svg"
+                    alt="Bookmark icon"
+                  />
                 </span>
-            </a>
-            <a href="#" class="sharing_link bubble_link">
-              
+              </a>
+              <a href="#" class="sharing_link bubble_link">
                 <span id="comments_bubble" class="comments_bubble">
-                    <span class="comment_number">615</span>
-                  <img class='bubble_logo'src="../new-york-times-page/assets/images/article_header_icons-06.svg"  alt="">
+                  <span class="comment_number">615</span>
+                  <img
+                    class="bubble_logo"
+                    src="/assets/images/article_header_icons-06.svg"
+                    alt="Speech Bubble icon"
+                  />
                 </span>
-            </a>
+              </a>
             </div>
           </div>
         </div>
         <div class="clear_float"></div>
       </div>
-        <aside id="editors_pick" class="editors_pick">
-
-          <h5 id="sidebar_1_title" class="sidebar_1_title">Editors’ Picks</h5>
-          <div id="picks_list" class="picks_list">
-            <div id="picked_article_1" class="picked_article">
-              <img src="https://static01.nyt.com/images/2019/10/27/business/24WORKFRIEND-01/22WORKFRIEND-01-square640.jpg?quality=75&auto=webp&disable=upscale&width=350" alt="" id="pick_thumbnail_1" class="pick_thumbnail">
-              <span id="pick_title_1" class="pick_title">Your Job Will Never Love You Back</span>
-            </div>
-            <div id="picked_article_2" class="picked_article">
-                <img src="https://static01.nyt.com/images/2019/10/27/fashion/21MODERN-CHICKEN/21MODERN-CHICKEN-square640-v2.jpg?quality=75&auto=webp&disable=upscale&width=350" alt="" id="pick_thumbnail_1" class="pick_thumbnail">
-                <span id="pick_title_2" class="pick_title">
-                    The Chicken’s in the Oven, My Husband’s Out the Door</span>
-              </div>
-              <div id="picked_article_3" class="picked_article">
-                  <img src="https://static01.nyt.com/images/2019/10/29/nyregion/29nybridge1-print/29nybridge1-print-square640-v3.jpg?quality=75&auto=webp&disable=upscale&width=350" alt="" id="pick_thumbnail_1" class="pick_thumbnail">
-                  <span id="pick_title_3" class="pick_title">$7.5 Million ‘Down the Drain’: The Demise of the Bouncing Bridge</span>
-                </div>
-
-          </div>
-
-        </aside>
-        <div class="account-container">
-          <span class="inner-container">
-            <strong>This is your one article preview.</strong>
-          </span>
-          <p><a href="#">Login </a>or <a href="#">create a free account </a>to read more articles each month</p>
-        </div>
-        <div class="article_body">
+      <div class="account-container">
+        <span class="inner-container">
+          This is your one article preview.
+        </span>
+        <p>
+          <a href="#">Login </a>or <a href="#">create a free account </a>to read
+          more articles each month
+        </p>
+      </div>
+      <div class="article_body">
         <article class="main-article">
           <p class="paragraph-1">
             CAMBRIDGE, Mass. — One night late in 1979, an itinerant young
@@ -179,15 +180,16 @@
             hypothesis, known undramatically as inflation, looked right.
           </p>
           <p>
-            Reaching back across 13.8 billion years to <a class="article_normal_link">the first sliver of
-            cosmic time</a> with telescopes at the South Pole, a team of astronomers
-            led by John M. Kovac of the Harvard-Smithsonian Center for
-            Astrophysics detected ripples in the fabric of space-time —
-            so-called <a class="article_normal_link">gravitational waves</a> — the signature of a universe being
-            wrenched violently apart when it was roughly a trillionth of a
-            trillionth of a trillionth of a second old. They are the long-sought
-            smoking-gun evidence of inflation, proof, Dr. Kovac and his
-            colleagues say, that Dr. Guth was correct.
+            Reaching back across 13.8 billion years to
+            <a class="article_normal_link">the first sliver of cosmic time</a>
+            with telescopes at the South Pole, a team of astronomers led by John
+            M. Kovac of the Harvard-Smithsonian Center for Astrophysics detected
+            ripples in the fabric of space-time — so-called
+            <a class="article_normal_link">gravitational waves</a> — the
+            signature of a universe being wrenched violently apart when it was
+            roughly a trillionth of a trillionth of a trillionth of a second
+            old. They are the long-sought smoking-gun evidence of inflation,
+            proof, Dr. Kovac and his colleagues say, that Dr. Guth was correct.
           </p>
           <span></span>
           <span>You have 3 free articles remaining.</span>
@@ -212,7 +214,7 @@
             bubbling into frothy eternity, like a pot of pasta water boiling
             over.
           </p>
-          <span class="section_title"><strong>‘As Big as It Gets’</strong></span>
+          <span class="section_title">‘As Big as It Gets’</span>
           <p>
             In our own universe, it would serve as a window into the forces
             operating at energies forever beyond the reach of particle
@@ -244,61 +246,99 @@
             Astrophysical Journal.
           </p>
           <div class="illustrations-container">
-            
-              <div>
-                <h1 class="illustrations-heading">The Theory of Inflation</h1>
-                <p class="summary-text">Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the 
-                  instant after the Big Bang 13.8 billion years ago.</p>
-                </div>
-              <div class="inflation">
-                <img src="assets/images/inflation.png" alt="inflation" width="940px">
-                <div class="universe-cube">
-                  <p class="paragraph"><span class="paragraph-span">The Universe</span>
-                    is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years across. 
-                    But there's a mystery. Wherever we look, the universe has an even temperature.</p></div>
-                    <div class="enough-cube">
-                        <p class="paragraph"><span class="paragraph-span">Not Enough Time</span>
-                          The universe is not old enough for light to have traveled the vast distance from one 
-                          side of the universe to the other, and there has not been enough time for scattered 
-                          patches of hot and cold to mix into an even temperature.</p></div>
-                          <div class="distant-cube">
-                              <p class="paragraph"><span class="paragraph-span">Distance Coffee</span>
-                                At a smaller scale, imagine using a telescope to look a mile in one direction. 
-                                You see a coffee cup, and from the amount of steam, you can estimate its temperature
-                                 and how much it has cooled.</p></div>
-                                 <div class="coffee-cube">
-                                    <p class="paragraph"><span class="paragraph-span">Coffee Everywhere</span>
-                                      Now turn around and look a mile in the other direction. You see a similar coffee cup, 
-                                      at exactly the same temperature. Coincidence? Maybe. But if you see a similar cup in 
-                                      every direction, you might want to look for another explanation.</p></div>
-                                      <div class="time-cube">
-                                          <p class="paragraph"><span class="paragraph-span">Still not enough time</span>
-                                            There has not been enough time to carry coffee cups from place to place before they get cold. 
-                                            But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, 
-                                            that might explain their even temperature.</p></div>
-                                            <div class="inflation-cube">
-                                                <p class="paragraph"><span class="paragraph-span">Inflation</span>
-                                                  solves this problem. The theory proposes that, less than a trillionth of a second after 
-                                                  the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the 
-                                                  violently expanding energy field eventually grew into the large-scale structures of the 
-                                                  universe.</p></div>
-                                                  <div class="fluctuation-cube">
-                                                      <p class="paragraph"><span class="paragraph-span">Fluctuation</span>
-                                                        Astronomers have now detected evidence of these ancient fluctuations in swirls of 
-                                                        polarized light in the cosmic background radiation, which is energy left over from 
-                                                        the early universe. These are gravitational waves predicted by Einstein.</p></div>
-                                                         <div class="expansion-cube">
-                                                            <p class="paragraph"><span class="paragraph-span">Expansion</span>
-                                                              Returning to our coffee, imagine a single, central pot expanding faster than 
-                                                              light and cooling to an even temperature as it expands. That is something like 
-                                                              inflation. And the structure of the universe mirrors the froth and foam of the 
-                                                              original pot.</p></div>
-                    </div>
-              <div class="interactive-credit">
-                <p>By LARRY BUCHANAN and JONATHAN CORUM</p>
+            <div>
+              <h2 class="illustrations-heading">The Theory of Inflation</h2>
+              <p class="summary-text">
+                Astronomers have found evidence to support the theory of
+                inflation, which explains how the universe expanded so uniformly
+                and so quickly in the instant after the Big Bang 13.8 billion
+                years ago.
+              </p>
+            </div>
+            <div class="inflation">
+              <img
+                id="inflation-width"
+                src="assets/images/inflation.png"
+                alt="A diagram showing inflation"
+              />
+              <div class="universe-cube">
+                <p class="paragraph">
+                  <span class="paragraph-span">The Universe</span> is just under
+                  14 billion years old. From our position in the Milky Way
+                  galaxy, we can observe a sphere that is now about 92 billion
+                  light-years across. But there's a mystery. Wherever we look,
+                  the universe has an even temperature.
+                </p>
+              </div>
+              <div class="enough-cube">
+                <p class="paragraph">
+                  <span class="paragraph-span">Not Enough Time</span> The
+                  universe is not old enough for light to have traveled the vast
+                  distance from one side of the universe to the other, and there
+                  has not been enough time for scattered patches of hot and cold
+                  to mix into an even temperature.
+                </p>
+              </div>
+              <div class="distant-cube">
+                <p class="paragraph">
+                  <span class="paragraph-span">Distance Coffee</span> At a
+                  smaller scale, imagine using a telescope to look a mile in one
+                  direction. You see a coffee cup, and from the amount of steam,
+                  you can estimate its temperature and how much it has cooled.
+                </p>
+              </div>
+              <div class="coffee-cube">
+                <p class="paragraph">
+                  <span class="paragraph-span">Coffee Everywhere</span> Now turn
+                  around and look a mile in the other direction. You see a
+                  similar coffee cup, at exactly the same temperature.
+                  Coincidence? Maybe. But if you see a similar cup in every
+                  direction, you might want to look for another explanation.
+                </p>
+              </div>
+              <div class="time-cube">
+                <p class="paragraph">
+                  <span class="paragraph-span">Still not enough time</span>
+                  There has not been enough time to carry coffee cups from place
+                  to place before they get cold. But if all the coffee cups were
+                  somehow filled from a single coffee pot, all at the same time,
+                  that might explain their even temperature.
+                </p>
+              </div>
+              <div class="inflation-cube">
+                <p class="paragraph">
+                  <span class="paragraph-span">Inflation</span> solves this
+                  problem. The theory proposes that, less than a trillionth of a
+                  second after the Big Bang, the universe expanded faster than
+                  the speed of light. Tiny ripples in the violently expanding
+                  energy field eventually grew into the large-scale structures
+                  of the universe.
+                </p>
+              </div>
+              <div class="fluctuation-cube">
+                <p class="paragraph">
+                  <span class="paragraph-span">Fluctuation</span> Astronomers
+                  have now detected evidence of these ancient fluctuations in
+                  swirls of polarized light in the cosmic background radiation,
+                  which is energy left over from the early universe. These are
+                  gravitational waves predicted by Einstein.
+                </p>
+              </div>
+              <div class="expansion-cube">
+                <p class="paragraph">
+                  <span class="paragraph-span">Expansion</span> Returning to our
+                  coffee, imagine a single, central pot expanding faster than
+                  light and cooling to an even temperature as it expands. That
+                  is something like inflation. And the structure of the universe
+                  mirrors the froth and foam of the original pot.
+                </p>
               </div>
             </div>
-        
+            <div class="interactive-credit">
+              <p>By LARRY BUCHANAN and JONATHAN CORUM</p>
+            </div>
+          </div>
+
           <p>
             Dr. Kovac said the chance that the results were a fluke was only one
             in 10 million.
@@ -327,27 +367,29 @@
             the most popular variant of inflation, known as chaotic inflation,
             in 1983, was about to go on vacation in the Caribbean last week when
             Chao-Lin Kuo, a Stanford colleague and a member of Dr. Kovac’s team,
-            <a class="article_normal_link">knocked on his door with a bottle of Champagne </a> to tell him the news.
+            <a class="article_normal_link"
+              >knocked on his door with a bottle of Champagne
+            </a>
+            to tell him the news.
           </p>
-          <div>
+          <div></div>
 
+          <div class="article_video_container">
+            <iframe
+              id="article_video_size"
+              src="https://www.youtube.com/embed/ZlfIVEy_YOA"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div id="video_caption" class="video_caption">
+              <span class="video_caption_top"
+                >Stanford Professor Andrei Linde celebrates physics
+                breakthrough</span
+              ><span class="video_caption_bottom"
+                >Video by StanfordUniversity</span
+              >
+            </div>
           </div>
-
-<div class="article_video_container">
-    <iframe
-    width="600"
-    height="358"
-    src="https://www.youtube.com/embed/ZlfIVEy_YOA"
-    frameborder="0"
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
-  <figcaption id="video_caption" class="video_caption">
-    <span class="video_caption_top"
-      >Stanford Professor Andrei Linde celebrates physics breakthrough</span
-    ><span class="video_caption_bottom">Video by StanfordUniversity</span>
-  </figcaption>
-</div>
           <p>
             Confused, Dr. Linde called out to his wife, asking if she had
             ordered anything.
@@ -423,229 +465,308 @@
             wintering over in 1994. “I’ve been hooked ever since,” he said.
           </p>
           <figure class="emb_img_1_fig">
-              <img
-                alt="The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns &mdash; the signature of a universe being wrenched violently apart at its birth."
-                class="emb_img_1"
-                src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
-                srcset="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-articleLarge.jpg?quality=90&auto=webp 600w,
-                        https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-jumbo.jpg?quality=90&auto=webp 1024w,
-                        https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-superJumbo.jpg?quality=90&auto=webp 2048w"
-              />
-              <figcaption class="emb_img_1_cpt ">
-                <span class="emb_img_1_desc video_caption_top"
-                  >The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth. <span class="atcl_img_1_auth"
+            <img
+              alt="The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns &mdash; the signature of a universe being wrenched violently apart at its birth."
+              class="emb_img_1"
+              src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
+            />
+            <figcaption class="emb_img_1_cpt ">
+              <span class="emb_img_1_desc video_caption_top"
+                >The Bicep2 telescope, in the foreground, was used to detect the
+                faint spiraling gravity patterns — the signature of a universe
+                being wrenched violently apart at its birth.
+                <span class="atcl_img_1_auth"
                   >Steffen Richter/Associated Press</span
                 ></span
+              >
+            </figcaption>
+          </figure>
+          <p>
+            In 2002, he was part of a team that discovered that the microwave
+            radiation was polarized, meaning the light waves had a slight
+            preference to vibrate in one direction rather than another.
+          </p>
+          <p>
+            This was a step toward the ultimate goal of detecting the
+            gravitational waves from inflation. Such waves, squeezing space in
+            one direction and stretching it in another as they go by, would
+            twist the direction of polarization of the microwaves, theorists
+            said. As a result, maps of the polarization in the sky should have
+            little arrows going in spirals.
+          </p>
+          <p>
+            Detecting those spirals required measuring infinitesimally small
+            differences in the temperature of the microwaves. The group’s
+            telescope, Bicep2, is basically a giant superconducting thermometer.
+          </p>
+          <p>“We had no expectations what we would see,” Dr. Kovac said.</p>
+          <p>
+            The strength of the signal surprised the researchers, and they spent
+            a year burning up time on a Harvard supercomputer, making sure they
+            had things right and worrying that competitors might beat them to
+            the breakthrough.
+          </p>
+          <span class="section_title">A Special Time</span>
+          <p>
+            The data traced the onset of inflation to a time that physicists
+            like Dr. Guth, staying up late in his Palo Alto house 35 years ago,
+            suspected was a special break point in the evolution of the
+            universe.
+          </p>
+          <p>
+            Physicists recognize four forces at work in the world today:
+            gravity, electromagnetism, and strong and weak nuclear forces. But
+            they have long suspected that those are simply different
+            manifestations of a single unified force that ruled the universe in
+            its earliest, hottest moments.
+          </p>
+          <p>
+            As the universe cooled, according to this theory, there was a fall
+            from grace, like some old folk mythology of gods or brothers falling
+            out with each other. The laws of physics evolved, with one force
+            after another splitting away.
+          </p>
+          <p>That was where Dr. Guth came in.</p>
+          <p>
+            Under some circumstances, a glass of water can stay liquid as the
+            temperature falls below 32 degrees, until it is disturbed, at which
+            point it will rapidly freeze, releasing latent heat.
+          </p>
+          <p>
+            Similarly, the universe could “supercool” and stay in a unified
+            state too long. In that case, space itself would become imbued with
+            a mysterious latent energy.
+          </p>
+          <p>
+            Inserted into Einstein’s equations, the latent energy would act as a
+            kind of antigravity, and the universe would blow itself up. Since it
+            was space itself supplying the repulsive force, the more space was
+            created, the harder it pushed apart.
+          </p>
+          <p>
+            What would become our observable universe mushroomed in size at
+            least a trillion trillionfold — from a submicroscopic speck of
+            primordial energy to the size of a grapefruit — in less than a
+            cosmic eye-blink.
+          </p>
+          <p>
+            Almost as quickly, this pulse would subside, relaxing into ordinary
+            particles and radiation. All of normal cosmic history was still
+            ahead, resulting in today’s observable universe, a patch of sky and
+            stars billions of light-years across. “It’s often said that there is
+            no such thing as a free lunch,” Dr. Guth likes to say, “but the
+            universe might be the ultimate free lunch.”
+          </p>
+          <p>
+            Make that free lunches. Most of the hundred or so models resulting
+            from Dr. Guth’s original vision suggest that inflation, once
+            started, is eternal. Even as our own universe settled down to a
+            comfortable homey expansion, the rest of the cosmos will continue
+            blowing up, spinning off other bubbles endlessly, a concept known as
+            the multiverse.
+          </p>
+          <p>
+            So the future of the cosmos is perhaps bright and fecund, but do not
+            bother asking about going any deeper into the past.
+          </p>
+          <p>
+            We might never know what happened before inflation, at the very
+            beginning, because inflation erases everything that came before it.
+            All the chaos and randomness of the primordial moment are swept
+            away, forever out of our view.
+          </p>
+          <p>
+            “If you trace your cosmic roots,” said Abraham Loeb, a Harvard-
+            Smithsonian astronomer who was not part of the team, “you wind up at
+            inflation.”
+          </p>
+          <div>
+            <div id="article_footer">
+              <div id="article_footer_top" class="article_footer_top">
+                <span
+                  >A version of this article appears in print on March 18, 2014,
+                  Section A, Page 1 of the New York edition with the headline:
+                  Space Ripples Reveal Big Bang’s Smoking Gun.</span
                 >
-                
+                <span
+                  ><a href="http://www.nytreprints.com/">Order Reprints</a> |
+                  <a href="https://www.nytimes.com/section/todayspaper"
+                    >Today’s Paper</a
+                  >
+                  |
+                  <a
+                    href="https://www.nytimes.com/subscriptions/Multiproduct/lp8HYKU.html?campaignId=48JQY"
+                    >Subscribe</a
+                  ></span
+                >
+              </div>
+              <div id="article_footer_bottom">
+                <div id="a_f_b_left" class="a_f_b_left">
+                  <button>
+                    Read 615 Comments
+                  </button>
+                </div>
+                <div id="a_f_b_right" class="a_f_b_right">
+                  <div class="social_actions">
+                    <a href="#" class="sharing_link">
+                      <span class="sharing sharing_footer share_on_facebook">
+                        <img
+                          src="/assets/images/article_header_icons-01.svg"
+                          alt="Facebook icon"
+                        />
+                      </span>
+                    </a>
+                    <a href="#" class="sharing_link">
+                      <span class="sharing sharing_footer share_on_twitter">
+                        <img
+                          class="twitter_logo"
+                          src="/assets/images/article_header_icons-02.svg"
+                          alt="Twitter icon"
+                        />
+                      </span>
+                    </a>
+                    <a href="#" class="sharing_link">
+                      <span class="sharing sharing_footer share_on_mail">
+                        <img
+                          class="mail_logo"
+                          src="/assets/images/article_header_icons-03.svg"
+                          alt="Mail icon"
+                        />
+                      </span>
+                    </a>
+                    <a href="#" class="sharing_link">
+                      <span class="sharing sharing_footer more_sharing">
+                        <img
+                          class="share_logo"
+                          src="/assets/images/article_header_icons-04.svg"
+                          alt="Share icon"
+                        />
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="card-container">
+        <h4>Read more from Science</h4>
+        <div class="card-inner">
+          <div class="card-innermost">
+            <figure class="image-1">
+              <img
+                src="https://static01.nyt.com/images/2019/10/29/science/29TB-ZOMBIEFLY1/29TB-ZOMBIEFLY1-threeByTwoMediumAt2X.jpg?quality=75&amp;auto=webp&amp;disable=upscale"
+                alt="Fungus Fires"
+              />
+              <figcaption class="figcaption">
+                de Ruiter et al., Journal of the Royal Society Interface
               </figcaption>
             </figure>
-          <p>In 2002, he was part of a team that discovered that the microwave 
-              radiation was polarized, meaning the light waves had a slight 
-              preference to vibrate in one direction rather than another.</p>
-          <p>This was a step toward the ultimate goal of detecting the 
-              gravitational waves from inflation. Such waves, squeezing space 
-              in one direction and stretching it in another as they go by, would 
-              twist the direction of polarization of the microwaves, theorists said. 
-              As a result, maps of the polarization in the sky should have little 
-              arrows going in spirals.</p>
-          <p>Detecting those spirals required measuring infinitesimally small 
-              differences in the temperature of the microwaves. The group’s 
-              telescope, Bicep2, is basically a giant superconducting 
-              thermometer.</p>
-          <p>“We had no expectations what we would see,” Dr. Kovac said.</p>
-          <p>The strength of the signal surprised the researchers, and they 
-              spent a year burning up time on a Harvard supercomputer, 
-              making sure they had things right and worrying that competitors 
-              might beat them to the breakthrough.</p>
-              <span class="section_title"><strong>A Special Time</strong></span>
-              <p>The data traced the onset of inflation to a time that physicists like 
-                  Dr. Guth, staying up late in his Palo Alto house 35 years ago, 
-                  suspected was a special break point in the evolution of the 
-                  universe.</p>
-              <p>Physicists recognize four forces at work in the world today: 
-                  gravity, electromagnetism, and strong and weak nuclear forces. 
-                  But they have long suspected that those are simply different 
-                  manifestations of a single unified force that ruled the universe in 
-                  its earliest, hottest moments.</p>
-              <p>As the universe cooled, according to this theory, there was a fall 
-                  from grace, like some old folk mythology of gods or brothers falling 
-                  out with each other. The laws of physics evolved, with one force 
-                  after another splitting away.</p>
-              <p>That was where Dr. Guth came in.</p>
-              <p>Under some circumstances, a glass of water can stay liquid as the 
-                  temperature falls below 32 degrees, until it is disturbed, at which 
-                  point it will rapidly freeze, releasing latent heat.</p>
-              <p>Similarly, the universe could “supercool” and stay in a unified state 
-                  too long. In that case, space itself would become imbued with a 
-                  mysterious latent energy.</p>
-              <p>Inserted into Einstein’s equations, the latent energy would act as a 
-                  kind of antigravity, and the universe would blow itself up. Since it 
-                  was space itself supplying the repulsive force, the more space was 
-                  created, the harder it pushed apart.</p>
-              <p>What would become our observable universe mushroomed in size 
-                  at least a trillion trillionfold — from a submicroscopic speck of 
-                  primordial energy to the size of a grapefruit — in less than a 
-                  cosmic eye-blink.</p>
-              <p>Almost as quickly, this pulse would subside, relaxing into ordinary 
-                  particles and radiation. All of normal cosmic history was still 
-                  ahead, resulting in today’s observable universe, a patch of sky and 
-                  stars billions of light-years across. “It’s often said that there is no 
-                  such thing as a free lunch,” Dr. Guth likes to say, “but the universe 
-                  might be the ultimate free lunch.”</p>
-              <p>Make that free lunches. Most of the hundred or so models resulting 
-                  from Dr. Guth’s original vision suggest that inflation, once started, 
-                  is eternal. Even as our own universe settled down to a comfortable 
-                  homey expansion, the rest of the cosmos will continue blowing up, 
-                  spinning off other bubbles endlessly, a concept known as the 
-                  multiverse.</p>
-              <p>So the future of the cosmos is perhaps bright and fecund, but do not 
-                  bother asking about going any deeper into the past.</p>
-              <p>We might never know what happened before inflation, at the very 
-                  beginning, because inflation erases everything that came before it. 
-                  All the chaos and randomness of the primordial moment are swept 
-                  away, forever out of our view.</p>
-              <p>“If you trace your cosmic roots,” said Abraham Loeb, a Harvard-
-                  Smithsonian astronomer who was not part of the team, “you wind 
-                  up at inflation.”</p>
-          <div>
-          <div id="article_footer">
-              <div id="article_footer_top" class="article_footer_top">
-                  <span>A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun.</span>
-                
-                      <span><a href="http://www.nytreprints.com/">Order Reprints</a> | <a href="https://www.nytimes.com/section/todayspaper">Today’s Paper</a> | <a href="https://www.nytimes.com/subscriptions/Multiproduct/lp8HYKU.html?campaignId=48JQY">Subscribe</a></span>
-                  
-                </div>
-                <div id="article_footer_bottom">
-                  <div id="a_f_b_left" class="a_f_b_left">
-                    <button>
-                      Read 615 Comments
-                    </button>
-                  </div>
-                  <div id="a_f_b_right" class="a_f_b_right">
-                      <div id="social_actions" class="social_actions">
-                          <a href="#" class="sharing_link">
-                            <span id="share_on_facebook" class="sharing sharing_footer share_on_facebook">
-                              <img src="../new-york-times-page/assets/images/article_header_icons-01.svg" alt="">
-                            </span>
-                        </a>
-                        <a href="#" class="sharing_link">
-                            <span id="share_on_twitter" class="sharing sharing_footer share_on_twitter">
-                                <img class='twitter_logo' src="../new-york-times-page/assets/images/article_header_icons-02.svg" alt="">
-                            </span>
-                        </a>
-                        <a href="#" class="sharing_link">
-                            <span id="share_on_mail" class="sharing sharing_footer share_on_mail">
-                              <img class='mail_logo'src="../new-york-times-page/assets/images/article_header_icons-03.svg"  alt="">
-                            </span>
-                        </a>
-                        <a href="#" class="sharing_link">
-                            <span id="more_sharing" class="sharing sharing_footer more_sharing">
-                              <img class='share_logo'src="../new-york-times-page/assets/images/article_header_icons-04.svg"  alt="">
-                            </span>
-                        </a>
-                        </div>
-                  </div>
-
-
-                </div>
-
-
+            <div class="article-div">
+              <h3 class="article-heading">
+                This Fungus Fires Artillery From The Backs of Zombie Flies
+              </h3>
+              <p class="article-body">
+                After Entomophthora muscae fatally infects house flies, it makes
+                microscopic stalks for hurtling spores at other insects that
+                come nearby.
+              </p>
+              <p class="article-footer">Knvul Sheikh · 3h ago</p>
+            </div>
           </div>
-
-        </article>
-      
-        </div>
-        <div class="card-container">
-          <h4>Read more from Science</h4>
-          <div class="card-inner">
-            <div class="card-innermost">
-                <figure class="image-1">
-                    <img src="https://static01.nyt.com/images/2019/10/29/science/29TB-ZOMBIEFLY1/29TB-ZOMBIEFLY1-threeByTwoMediumAt2X.jpg?quality=75&amp;auto=webp&amp;disable=upscale" alt="Fungus Fires">
-                  <figcaption class="figcaption">
-                      de Ruiter et al., Journal of the Royal Society Interface
-                  </figcaption>
-                  </figure>
-                  <div class="article-div">
-                    <h3 class="article-heading">This Fungus Fires Artillery From The Backs of Zombie Flies</h3>
-                    <p class="article-body">After Entomophthora muscae fatally infects house flies, it makes microscopic stalks for hurtling spores at other insects that come nearby.</p>
-                    <p class="article-footer">Knvul Sheikh · 3h ago </p>
-                  </div>
-            </div> 
-            <div class="card-innermost card-innermost-separator">
-                <figure class="image-2">
-                    <img src="https://static01.nyt.com/images/2019/10/30/science/30SCI-GRAPHENE1/30SCI-GRAPHENE1-threeByTwoMediumAt2X.jpg?quality=75&amp;auto=webp&amp;disable=upscale" alt="Physics Magic">
-                    <figcaption class="figcaption">
-                        ICFO – The Institute of Photonic Sciences
-                    </figcaption>
-                  </figure>
-                  <div class="article-div">
-                      <h3 class="article-heading">A Physics Magic Trick: Take 2 Sheets of Carbon and Twist</h3>
-                      <p class="article-body">The study of graphene was starting to go out of style, but new experiments with sheets of the ultrathin material revealed there was much left to learn.</p>
-                      <p class="article-footer">Kenneth Chang · Oct. 30 </p>
-                    </div>
-            </div> 
-            <div class="card-innermost card-innermost-separator ">
-                <figure class="image-3">
-                    <img src="https://static01.nyt.com/images/2019/10/29/science/00SCI-HYENAS1b/merlin_163508739_58912b6a-3ea5-4fc1-ae37-515db17ca129-threeByTwoMediumAt2X.jpg?quality=75&amp;auto=webp&amp;disable=upscale" alt="Hyena">
-                    <figcaption class="figcaption">
-                       
-                    </figcaption>
-                  </figure>
-                  <div class="article-div">
-                      <h3 class="article-heading">In Lebanon, the Hyena’s Main Fear Is Fear Itself</h3>
-                      <p class="article-body">Poisoned, run over and shot on sight, the country’s national animal finds itself threatened by frightened humans and dated myths.</p>
-                      <p class="article-footer">Helen Sullivan and Diego Ibarra Sanchez · Oct. 30  </p>
-                    </div>
-            </div> <div class="clear_float"></div>
+          <div class="card-innermost card-innermost-separator">
+            <figure class="image-2">
+              <img
+                src="https://static01.nyt.com/images/2019/10/30/science/30SCI-GRAPHENE1/30SCI-GRAPHENE1-threeByTwoMediumAt2X.jpg?quality=75&amp;auto=webp&amp;disable=upscale"
+                alt="Physics Magic"
+              />
+              <figcaption class="figcaption">
+                ICFO – The Institute of Photonic Sciences
+              </figcaption>
+            </figure>
+            <div class="article-div">
+              <h3 class="article-heading">
+                A Physics Magic Trick: Take 2 Sheets of Carbon and Twist
+              </h3>
+              <p class="article-body">
+                The study of graphene was starting to go out of style, but new
+                experiments with sheets of the ultrathin material revealed there
+                was much left to learn.
+              </p>
+              <p class="article-footer">Kenneth Chang · Oct. 30</p>
+            </div>
           </div>
+          <div class="card-innermost card-innermost-separator ">
+            <figure class="image-3">
+              <img
+                src="https://static01.nyt.com/images/2019/10/29/science/00SCI-HYENAS1b/merlin_163508739_58912b6a-3ea5-4fc1-ae37-515db17ca129-threeByTwoMediumAt2X.jpg?quality=75&amp;auto=webp&amp;disable=upscale"
+                alt="Hyena"
+              />
+              <figcaption class="figcaption"></figcaption>
+            </figure>
+            <div class="article-div">
+              <h3 class="article-heading">
+                In Lebanon, the Hyena’s Main Fear Is Fear Itself
+              </h3>
+              <p class="article-body">
+                Poisoned, run over and shot on sight, the country’s national
+                animal finds itself threatened by frightened humans and dated
+                myths.
+              </p>
+              <p class="article-footer">
+                Helen Sullivan and Diego Ibarra Sanchez · Oct. 30
+              </p>
+            </div>
+          </div>
+          <div class="clear_float"></div>
         </div>
-        <div></div>
-        <div class="footer-account">
-          <h4>Access more of The Times for free each month with an account.</h4>
-          <button>Create a free account</button>
-          <h5>Already have an account? <a href="#">Log in</a></h5>
-        </div>
+      </div>
+      <div></div>
+      <div class="footer-account">
+        <h4>Access more of The Times for free each month with an account.</h4>
+        <button>Create a free account</button>
+        <h5>Already have an account? <a href="#">Log in</a></h5>
+      </div>
     </main>
     <footer>
       <nav id="footer_nav" class="footer_nav">
-          <a href="#" class="nyt-logo"
+        <a href="#" class="nyt-logo"
           ><img src="assets/images/nyt-logo.png" alt="new york times logo"
         /></a>
         <a href="#" class="go_to_home_page">Go to Home Page »</a>
-        
       </nav>
-<main class="footer_main">
-    <section class="footer_left" id="footer_left">
-      <div class="footer_column">
-        <h4 class="column_title">News</h4>
-        <a href="">Home Page</a>
-        <a href="">World</a>
-        <a href="">U.S.</a>
-        <a href="">Politics</a>
-        <a href="">Election 2020</a>
-        <a href="">New York</a>
-        <a href="">Business</a>
-        <a href="">Tech</a>
-        <a href="">Science</a>
-        <a href="">Sports</a>
-        <a href="">Obituaries</a>
-        <a href="">Today's Paper</a>
-        <a href="">Corrections</a>
-      </div>
+      <div class="footer_main">
+        <section class="footer_left" id="footer_left">
+          <div class="footer_column">
+            <h4 class="column_title">News</h4>
+            <a href="">Home Page</a>
+            <a href="">World</a>
+            <a href="">U.S.</a>
+            <a href="">Politics</a>
+            <a href="">Election 2020</a>
+            <a href="">New York</a>
+            <a href="">Business</a>
+            <a href="">Tech</a>
+            <a href="">Science</a>
+            <a href="">Sports</a>
+            <a href="">Obituaries</a>
+            <a href="">Today's Paper</a>
+            <a href="">Corrections</a>
+          </div>
 
-      <div class="footer_column">
-          <h4 class="column_title">Opinion</h4>
-          <a href="">Today's Opinion</a>
-          <a href="">Op-Ed Columnists</a>
-          <a href="">Editorials</a>
-          <a href="">Op-Ed Contributors</a>
-          <a href="">Letters</a>
-          <a href="">Sunday Review</a>
-          <a href="">Video: Opinion</a>
-        </div>
+          <div class="footer_column">
+            <h4 class="column_title">Opinion</h4>
+            <a href="">Today's Opinion</a>
+            <a href="">Op-Ed Columnists</a>
+            <a href="">Editorials</a>
+            <a href="">Op-Ed Contributors</a>
+            <a href="">Letters</a>
+            <a href="">Sunday Review</a>
+            <a href="">Video: Opinion</a>
+          </div>
 
-        <div class="footer_column">
+          <div class="footer_column">
             <h4 class="column_title">Arts</h4>
             <a href="">Today's Arts</a>
             <a href="">Art & Design</a>
@@ -660,80 +781,95 @@
           </div>
 
           <div class="footer_column">
-              <h4 class="column_title">Living</h4>
-              <a href="">Automobiles</a>
-              <a href="">Crossword</a>
-              <a href="">Education</a>
-              <a href="">Food</a>
-              <a href="">Health</a>
-              <a href="">Jobs</a>
-              <a href="">Magazine</a>
-              <a href="">Parenting</a>
-              <a href="">Real Estate</a>
-              <a href="">Style</a>
-              <a href="">T Magazine</a>
-              <a href="">Travel</a>
-              <a href="">Love</a>
-            </div>
+            <h4 class="column_title">Living</h4>
+            <a href="">Automobiles</a>
+            <a href="">Crossword</a>
+            <a href="">Education</a>
+            <a href="">Food</a>
+            <a href="">Health</a>
+            <a href="">Jobs</a>
+            <a href="">Magazine</a>
+            <a href="">Parenting</a>
+            <a href="">Real Estate</a>
+            <a href="">Style</a>
+            <a href="">T Magazine</a>
+            <a href="">Travel</a>
+            <a href="">Love</a>
+          </div>
 
-            <div class="footer_column">
-                <h4 class="column_title">More</h4>
-                <a href="">Reader Center</a>
-                <a href="">Wirecutter</a>
-                <a href="">live Events</a>
-                <a href="">The Learning Network</a>
-                <a href="">Tools & Services</a>
-                <a href="">N.Y.C Events Guide </a>
-                <a href="">Multimedia</a>
-                <a href="">Photography</a>
-                <a href="">Video</a>
-                <a href="">Newsletters</a>
-                <a href="">NYT Store</a>
-                <a href="">Times Journeys</a>
-                <a href="">Manage My Account</a>
-              </div>
-
-
-    </section>
-      <aside class="footer_aside" id="footer_aside">
+          <div class="footer_column">
+            <h4 class="column_title">More</h4>
+            <a href="">Reader Center</a>
+            <a href="">Wirecutter</a>
+            <a href="">live Events</a>
+            <a href="">The Learning Network</a>
+            <a href="">Tools & Services</a>
+            <a href="">N.Y.C Events Guide </a>
+            <a href="">Multimedia</a>
+            <a href="">Photography</a>
+            <a href="">Video</a>
+            <a href="">Newsletters</a>
+            <a href="">NYT Store</a>
+            <a href="">Times Journeys</a>
+            <a href="">Manage My Account</a>
+          </div>
+        </section>
+        <aside class="footer_aside" id="footer_aside">
           <h4 class="column_title">Subscribe</h4>
-<div class="footer_aside_top">
-    <div class="footer_aside_top_item">
-        <span><img class="f_a_t_i_icon" src="../new-york-times-page/assets/images/footer_icons-01.svg" alt=""></span>
-        <a class="f_a_t_i_title" href="">Home Delivery</a>
-      </div>
-      <div class="footer_aside_top_item" >
-          <span><img class="f_a_t_i_icon" src="../new-york-times-page/assets/images/footer_icons-02.svg" alt=""></span>
-          <a class="f_a_t_i_title" href="">Digital Subscriptions</a>
-      </div>
-      <div class="footer_aside_top_item" >
-          <span><img class="f_a_t_i_icon" src="../new-york-times-page/assets/images/footer_icons-03.svg" alt=""></span>
-          <a class="f_a_t_i_title" href="">Crossword</a>
-      </div>
-      <div class="footer_aside_top_item">
-          <span><img class="f_a_t_i_icon" src="../new-york-times-page/assets/images/footer_icons-04.svg" alt=""></span>
-          <a class="f_a_t_i_title" href="">Cooking</a>
-      </div>
-</div>
-<div class="f_a_b_i_1">
-  <a href="">Email Newsletters</a>
-  <a href="">Corporate Subscriptions</a>
-  <a href="">Education Rate</a>
-</div>
-<div class="f_a_b_i_2">
-    <a href="">Mobile Applications</a>
-    <a href="">Replica Edition</a>
-    <a href="">Español</a>
-    <a href="">中文网</a>
-  </div>
+          <div class="footer_aside_top">
+            <div class="footer_aside_top_item">
+              <span
+                ><img
+                  class="f_a_t_i_icon"
+                  src="/assets/images/footer_icons-01.svg"
+                  alt=""
+              /></span>
+              <a class="f_a_t_i_title" href="">Home Delivery</a>
+            </div>
+            <div class="footer_aside_top_item">
+              <span
+                ><img
+                  class="f_a_t_i_icon"
+                  src="/assets/images/footer_icons-02.svg"
+                  alt=""
+              /></span>
+              <a class="f_a_t_i_title" href="">Digital Subscriptions</a>
+            </div>
+            <div class="footer_aside_top_item">
+              <span
+                ><img
+                  class="f_a_t_i_icon"
+                  src="/assets/images/footer_icons-03.svg"
+                  alt=""
+              /></span>
+              <a class="f_a_t_i_title" href="">Crossword</a>
+            </div>
+            <div class="footer_aside_top_item">
+              <span
+                ><img
+                  class="f_a_t_i_icon"
+                  src="/assets/images/footer_icons-04.svg"
+                  alt=""
+              /></span>
+              <a class="f_a_t_i_title" href="">Cooking</a>
+            </div>
+          </div>
+          <div class="f_a_b_i_1">
+            <a href="">Email Newsletters</a>
+            <a href="">Corporate Subscriptions</a>
+            <a href="">Education Rate</a>
+          </div>
+          <div class="f_a_b_i_2">
+            <a href="">Mobile Applications</a>
+            <a href="">Replica Edition</a>
+            <a href="">Español</a>
+            <a href="">中文网</a>
+          </div>
+        </aside>
 
-
-
-      </aside>
-      
-      <div class="clear_float"></div>
-    </main>
-    <div class="footer_footer">
+        <div class="clear_float"></div>
+      </div>
+      <div class="footer_footer">
         <a href="">© 2019 The New York Times Company</a>
         <a href="">Contact Us</a>
         <a href="">Work with us</a>
