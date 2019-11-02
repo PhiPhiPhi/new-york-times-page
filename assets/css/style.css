@@ -186,7 +186,11 @@
 
 .space-cosmos {
   font-size: 14.25px;
-  font-family: "NYTFranklin Bold", helvetica, arial, sans-serif;
+  font-family:
+  "NYTFranklin Bold",
+  helvetica,
+  arial,
+  sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.7px;
@@ -209,7 +213,11 @@
   color: rgb(51, 51, 51);
   font-weight: 600;
   font-size: 0.875rem;
-  font-family: "NYTFranklin Semibold", helvetica, arial, sans-serif;
+  font-family:
+  "NYTFranklin Semibold",
+  helvetica,
+  arial,
+  sans-serif;
   margin: 2px 19px 0 350px;
   height: 12px;
   letter-spacing: 0.0125rem;
@@ -221,7 +229,11 @@
   color: rgb(255, 255, 255);
   border-radius: 3px;
   cursor: pointer;
-  font-family: "NYTFranklin Semibold", helvetica, arial, sans-serif;
+  font-family:
+  "NYTFranklin Semibold",
+  helvetica,
+  arial,
+  sans-serif;
   transition: all 0.6s ease 0s;
   white-space: nowrap;
   vertical-align: middle;
@@ -233,8 +245,9 @@
   font-weight: 600;
   padding-bottom: 4px;
   display: inline-block;
-  border: 1px solid rgb(18, 
-  18, 
+  border: 
+  1px solid rgb(18,
+  18,
   18);
   margin-bottom: 5px;
 }
@@ -247,8 +260,12 @@
   font-size: 1.25rem;
   line-height: 3rem;
   color: #121212;
-  font-family: "NYTCheltenham BoldItalic", georgia, "times new roman", times,
-    serif;
+  font-family:
+  "NYTCheltenham BoldItalic",
+  georgia,
+  "times new roman",
+  times,
+  serif;
   font-weight: 700;
   font-style: italic;
 }
@@ -259,7 +276,11 @@
 }
 
 .sidebar_1_title {
-  font-family: "NYTFranklin Bold", helvetica, arial, sans-serif;
+  font-family:
+  "NYTFranklin Bold",
+  helvetica,
+  arial,
+  sans-serif;
   font-weight: 700;
   color: rgb(0, 0, 0);
   margin-top: 0px;
@@ -294,6 +315,7 @@
   width: 75px;
   margin-left: 0px;
 }
+
 #nav-right {
   float: right;
   position: relative;
@@ -351,6 +373,7 @@
   -ms-letter-spacing: 0.01em;
   letter-spacing: 0.01em;
 }
+
 figure {
   width: 100%;
   margin: 0 auto;
@@ -362,7 +385,12 @@ figure {
   color: #666;
   font-size: 0.9375rem;
   line-height: 1.25rem;
-  font-family: "NYT  Imperial Regular", georgia, "times new roman", times, serif;
+  font-family:
+  "NYT  Imperial Regular",
+  georgia,
+  "times new roman",
+  times,
+  serif;
   margin: 10px 20px 0;
   text-align: left;
   display: block;
@@ -387,7 +415,11 @@ header {
   font-size: 0.875rem;
   line-height: 1.125rem;
   margin: 0;
-  font-family: "NYTFranklin Bold", helvetica, arial, sans-serif;
+  font-family:
+  "NYTFranklin Bold",
+  helvetica,
+  arial,
+  sans-serif;
   font-weight: 700;
   color: #333;
 }
@@ -404,7 +436,11 @@ header {
 }
 
 .published_date {
-  font-family: "NYTFranklin Medium", helvetica, arial, sans-serif;
+  font-family:
+  "NYTFranklin Medium",
+  helvetica,
+  arial,
+  sans-serif;
   font-weight: 500;
   color: #333;
   margin-bottom: 1rem;
@@ -495,7 +531,12 @@ header {
 .main-article {
   font-size: 1.25rem;
   line-height: 1.875rem;
-  font-family: "NYTimperial Regular", georgia, "times new roman", times, serif;
+  font-family:
+  "NYTimperial Regular",
+  georgia,
+  "times new roman",
+  times,
+  serif;
   color: #333;
   margin-left: 0;
   margin-right: 0;
@@ -540,7 +581,10 @@ main {
   left: 80px;
   bottom: 60px;
   vertical-align: top;
-  font-family: "cheltenham-small-normal", georgia, "times new roman";
+  font-family:
+  "cheltenham-small-normal",
+  georgia,
+  "times new roman";
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -558,11 +602,18 @@ main {
 
 .account-container {
   font-size: 0.9375rem;
-  border: 1px solid rgb(204, 204, 204);
+  border:
+  1px solid rgb(204,
+  204,
+  204);
   border-radius: 2px;
   padding: 0.75rem;
   line-height: 1.25rem;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family:
+  "NYTfranklin",
+  helvetica,
+  arial,
+  sans-serif;
   max-width: 500px;
   color: #333;
   margin-top: 50px;
@@ -588,7 +639,11 @@ main {
   line-height: 1.125rem;
   font-weight: 500;
   font-style: normal;
-  font-family: "NYTFranklin Medium", arial, helvetica, sans-serif;
+  font-family:
+  "NYTFranklin Medium",
+  arial,
+  helvetica,
+  sans-serif;
   position: relative;
   top: 30px;
 }
@@ -609,7 +664,12 @@ main {
   font-weight: 700;
   font-style: normal;
   margin-bottom: 2px;
-  font-family: "NYTCheltenham Bold", georgia, times new roman, times, serif;
+  font-family:
+  "NYTCheltenham Bold",
+  georgia,
+  times new roman,
+  times,
+  serif;
 }
 
 .summary-text {
@@ -621,7 +681,12 @@ main {
 }
 
 .infiltration {
-  font-family: "NYTcheltenham", georgia, times new roman, times, serif;
+  font-family:
+  "NYTcheltenham",
+  georgia,
+  times new roman,
+  times,
+  serif;
 }
 
 .universe-cube {
@@ -638,7 +703,11 @@ main {
   line-height: 17px;
   font-weight: 300;
   font-style: normal;
-  font-family: "NYTFranklin Light", arial, helvetica, sans-serif;
+  font-family:
+  "NYTFranklin Light",
+  arial,
+  helvetica,
+  sans-serif;
   width: 228px;
 }
 
@@ -650,7 +719,11 @@ main {
   line-height: 17px;
   text-transform: uppercase;
   color: black;
-  font-family: "NYTFranklin Bold", arial, helvetica, sans-serif;
+  font-family:
+  "NYTFranklin Bold",
+  arial,
+  helvetica,
+  sans-serif;
 }
 
 .enough-cube {
@@ -721,7 +794,12 @@ main {
 }
 
 .section_title {
-  font-family: "NYTImperial Bold", georgia, "times new roman", times, serif;
+  font-family:
+  "NYTImperial Bold",
+  georgia,
+  "times new roman",
+  times,
+  serif;
   display: block;
   padding: 20px 0;
 }
@@ -732,14 +810,18 @@ main {
 
 #article_video_size {
   width: 600px;
-
   height: 358px;
   border: 0;
 }
 
 .video_caption {
   color: #666;
-  font-family: "NYTImperial Regular", georgia, "times new roman", times, serif;
+  font-family:
+  "NYTImperial Regular",
+  georgia,
+  "times new roman",
+  times,
+  serif;
   margin: 10px 0;
   text-align: left;
 }
@@ -795,16 +877,26 @@ main {
 
 .article_footer_top {
   margin: 2em 0;
-  font-family: "NYTFranklin Medium", helvetica, arial, sans-serif;
+  font-family:
+  "NYTFranklin Medium",
+  helvetica,
+  arial,
+  sans-serif;
   font-size: 0.75rem;
   line-height: 1rem;
   width: calc(100% - 40px);
   max-width: 600px;
-  color: rgb(102, 102, 102);
+  color:
+  rgb(102,
+  102,
+  102);
 }
 
 .article_footer_top a {
-  color: rgb(102, 102, 102);
+  color:
+  rgb(102,
+  102,
+  102);
   text-decoration: underline;
 }
 
@@ -822,12 +914,20 @@ main {
 }
 
 .a_f_b_left button {
-  background-color: rgb(86, 123, 149);
-  border: 1px solid rgb(50, 104, 145);
+  background-color:rgb(86,
+  123,
+  149);
+  border: 1px solid rgb(50,
+  104,
+  145);
   border-radius: 3px;
   color: white;
   display: block;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family:
+  "NYTfranklin",
+  helvetica,
+  arial,
+  sans-serif;
   font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -847,7 +947,11 @@ main {
 .card-container h4 {
   padding: 60px 0px 20px;
   font-size: 1.125rem;
-  font-family: "NYTfranklin", helvetica, arial, sans-serif;
+  font-family:
+  "NYTfranklin",
+  helvetica,
+  arial,
+  sans-serif;
   font-weight: 600;
   line-height: 140%;
   text-align: center;
@@ -858,7 +962,11 @@ main {
   position: relative;
   padding: 0 0px 24px;
   font-size: 1.125rem;
-  font-family: "NYTfranklin", helvetica, arial, sans-serif;
+  font-family:
+  "NYTfranklin",
+  helvetica,
+  arial,
+  sans-serif;
   font-weight: 600;
   line-height: 140%;
 }
@@ -876,12 +984,16 @@ main {
 }
 
 .border-div {
-  border-left: 1px solid rgb(226, 226, 226);
+  border-left: 1px solid rgb(226,
+  226,
+  226);
   margin: 0 0 0 15px;
 }
 
 .border-div-2 {
-  border-left: 1px solid rgb(226, 226, 226);
+  border-left: 1px solid rgb(226,
+  226,
+  226);
   margin: 0 0 0 5px;
 }
 
@@ -902,12 +1014,13 @@ main {
 
 .figcaption {
   float: right;
-  font-family: "NYTFranklin Medium";
+  font-family:
+  "NYTFranklin Medium";
   margin-left: 50px;
   margin-top: -3px;
   color: 
-  rgb(153, 
-  153, 
+  rgb(153,
+  153,
   153);
   font-size: 0.6em;
   line-height: 1.23em;
@@ -919,10 +1032,16 @@ main {
 }
 
 .article-heading {
-  color: rgb(51, 51, 51);
+  color: rgb(51,
+  51,
+  51);
   line-height: 125%;
-  font-family: "cheltenham-small-normal", georgia, "times new roman", times,
-    serif;
+  font-family:
+  "cheltenham-small-normal",
+  georgia,
+  "times new roman",
+  times,
+  serif;
   font-weight: 400;
   font-size: 1.5rem;
   width: 90%;
@@ -932,7 +1051,9 @@ main {
 .footer-account::before {
   content: "";
   position: absolute;
-  background-color: rgb(226, 226, 226);
+  background-color: rgb(226,
+  226,
+  226);
   width: 70%;
   height: 1px;
   margin: -80px 0px 0px -682px;
@@ -940,18 +1061,30 @@ main {
 
 .article-body {
   font-size: 1rem;
-
-  font-family: "NYTimperial Regular", georgia, "times new roman", times, serif;
+  font-family:
+  "NYTimperial Regular",
+  georgia,
+  "times new roman",
+  times,
+  serif;
   font-size: 1rem;
   margin-top: 24px;
   font-weight: normal;
-  color: rgb(85, 85, 85);
+  color: rgb(85,
+  85,
+  85);
 }
 
 .article-footer {
   margin-bottom: 24px;
-  font-family: "NYTfranklin", helvetica, arial, sans-serif;
-  color: rgb(85, 85, 85);
+  font-family:
+  "NYTfranklin",
+  helvetica,
+  arial,
+  sans-serif;
+  color: rgb(85,
+  85,
+  185);
   font-size: 0.875rem;
   line-height: 140%;
   margin: 36px 0px 8px;
@@ -969,7 +1102,11 @@ main {
 
 .footer-account h4 {
   font-size: 1.5rem;
-  font-family: "NYTcheltenham", georgia, "times new roman", times, serif;
+  font-family:
+  "NYTcheltenham",
+  georgia,
+  "times new roman",
+  times, serif;
   line-height: 145%;
   font-weight: normal;
   margin-bottom: 32px;
@@ -981,13 +1118,21 @@ main {
   width: 240px;
   border-radius: 3px;
   cursor: pointer;
-  font-family: "NYTfranklin", helvetica, arial, sans-serif;
+  font-family:
+  "NYTfranklin",
+  helvetica,
+  arial,
+  sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 15px;
   line-height: 20px;
-  background-color: rgb(51, 51, 51);
-  color: rgb(255, 255, 255);
+  background-color: rgb(51,
+  51,
+  51);
+  color: rgb(255,
+  255,
+  255);
   padding: 10px;
   -webkit-appearance: button;
   vertical-align: middle;
@@ -996,11 +1141,17 @@ main {
 }
 
 .footer-account h5 {
-  font-family: "NYTfranklin", helvetica, arial, sans-serif;
+  font-family:
+  "NYTfranklin",
+  helvetica,
+  arial,
+  sans-serif;
   margin-top: 24px;
   font-weight: normal;
   font-size: 15px;
-  color: rgb(51, 51, 51);
+  color: rgb(51,
+  51,
+  51);
   text-align: center;
 }
 
@@ -1015,12 +1166,17 @@ main {
   width: 68%;
   display: inline-block;
   padding-top: 15px;
-  border-bottom: 1px solid rgb(226, 226, 226);
+  border-bottom: 1px solid rgb(226,
+  226,
+  226);
 }
+
 .card-innermost-separator::before {
   content: "";
   position: absolute;
-  background-color: rgb(226, 226, 226);
+  background-color: rgb(226,
+  226,
+  226);
   width: 1px;
   bottom: 92px;
   height: 83%;
@@ -1028,7 +1184,9 @@ main {
 }
 
 .go_to_home_page {
-  color: rgb(86, 123, 149);
+  color: rgb(86,
+  123,
+  149);
   font-family: "NYTFranklin Light";
   font-size: 11px;
   font-style: normal;
@@ -1049,10 +1207,14 @@ footer {
 footer::before {
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: rgb(226, 226, 226);
+  border-bottom-color: rgb(226,
+  226,
+  226);
   border-top-width: 2px;
   border-top-style: solid;
-  border-top-color: rgb(226, 226, 226);
+  border-top-color: rgb(226,
+  226,
+  226);
   content: "";
   display: block;
   height: 1px;
@@ -1062,7 +1224,9 @@ footer::before {
 .footer_aside::before {
   content: "";
   position: absolute;
-  background-color: rgb(226, 226, 226);
+  background-color: rgb(226,
+  226,
+  226);
   width: 1px;
   height: 36%;
   position: absolute;
@@ -1072,8 +1236,9 @@ footer::before {
 footer::after {
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: rgb(226, 226, 226);
-
+  border-bottom-color: rgb(226,
+  226,
+  226);
   content: "";
   display: block;
   height: 1px;
@@ -1109,7 +1274,9 @@ footer::after {
 .footer_column a:hover {
   display: block;
   margin-right: 50px;
-  color: rgb(0, 0, 0);
+  color: rgb(0,
+  0,
+  0);
   display: inline-block;
   font-family: "NYTFranklin Medium";
   -webkit-text-decoration-line: none;
@@ -1125,7 +1292,9 @@ footer::after {
 }
 
 .f_a_t_i_title {
-  color: rgb(0, 0, 0);
+  color: rgb(0,
+  0,
+  0);
   display: inline-block;
   font-family: "NYTFranklin Bold";
   -webkit-text-decoration-line: none;
@@ -1149,7 +1318,9 @@ footer::after {
 .footer_column h4,
 aside h4.column_title {
   margin-bottom: 10px;
-  color: rgb(51, 51, 51);
+  color: rgb(51,
+  51,
+  51);
   font-size: 13px;
   font-weight: 700;
   font-family: "NYTFranklin Bold";
@@ -1177,7 +1348,7 @@ aside h4.column_title {
 .f_a_b_i_2 a {
   color:
    rgb(0,
-    0, 
+    0,
     0);
   display: inline-block;
   font-family: "NYTFranklin Medium";
@@ -1203,7 +1374,9 @@ aside h4.column_title {
   width: 8%;
   display: block;
   padding-top: 20px;
-  border-bottom: 1px solid rgb(226, 226, 226);
+  border-bottom: 1px solid rgb(226,
+  226,
+  226);
 }
 
 .footer_footer {
@@ -1212,8 +1385,14 @@ aside h4.column_title {
 }
 
 .footer_footer a {
-  color: rgb(153, 153, 153);
-  font-family: "NYTFranklin Medium", helvetica, arial, sans-serif;
+  color: rgb(153,
+  153,
+  153);
+  font-family:
+  "NYTFranklin Medium",
+  helvetica,
+  arial,
+  sans-serif;
   padding-top: 10px;
   padding-right: 20px;
   padding-bottom: 10px;
