@@ -1,130 +1,139 @@
 @font-face {
   font-family: "NYTCheltenham BoldItalic";
-  src: url("../fonts/cheltenham/cheltenham-italic-700-export/cheltenham-italic-700.woff2")
-      format("woff2"),
-    url("../fonts/cheltenham/cheltenham-italic-700-export/cheltenham-italic-700.woff")
-      format("woff"),
-    url("../fonts/cheltenham/cheltenham-italic-700-export/cheltenham-italic-700.ttf")
-      format("opentype");
+  src: 
+  url("../fonts/cheltenham/cheltenham-italic-700-export/cheltenham-italic-700.woff2")format("woff2"),
+  url("../fonts/cheltenham/cheltenham-italic-700-export/cheltenham-italic-700.woff")format("woff"),
+  url("../fonts/cheltenham/cheltenham-italic-700-export/cheltenham-italic-700.ttf")format("opentype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "NYTFranklin Light";
-  src: url("../fonts/franklin/franklin-normal-300-export/franklin-normal-300.woff2")
-      format("woff2"),
-    url("../fonts/franklin/franklin-normal-300-export/franklin-normal-300.woff")
-      format("woff"),
-    url("../fonts/franklin/franklin-normal-300-export/franklin-normal-300.ttf")
-      format("opentype");
+  src: 
+  url("../fonts/franklin/franklin-normal-300-export/franklin-normal-300.woff2")
+  format("woff2"),
+  url("../fonts/franklin/franklin-normal-300-export/franklin-normal-300.woff")
+  format("woff"),
+  url("../fonts/franklin/franklin-normal-300-export/franklin-normal-300.ttf")
+  format("opentype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "NYTCheltenham Bold";
-  src: url("../fonts/cheltenham/cheltenham-normal-700-export/cheltenham-normal-700.woff2")
-      format("woff2"),
-    url("../fonts/cheltenham/cheltenham-normal-700-export/cheltenham-normal-700.woff")
-      format("woff"),
-    url("../fonts/cheltenham/cheltenham-normal-700-export/cheltenham-normal-700.ttf")
-      format("opentype");
+  src: 
+  url("../fonts/cheltenham/cheltenham-normal-700-export/cheltenham-normal-700.woff2")
+  format("woff2"),
+  url("../fonts/cheltenham/cheltenham-normal-700-export/cheltenham-normal-700.woff")
+  format("woff"),
+  url("../fonts/cheltenham/cheltenham-normal-700-export/cheltenham-normal-700.ttf")
+  format("opentype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "cheltenham-small-normal";
-  src: url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.woff2")
-      format("woff2"),
-    url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.woff")
-      format("woff"),
-    url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.ttf")
-      format("opentype");
+  src: 
+  url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.woff2")
+  format("woff2"),
+  url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.woff")
+  format("woff"),
+  url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.ttf")
+  format("opentype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "NYTFranklin Bold";
-  src: url("../fonts/franklin/franklin-normal-700-export/franklin-normal-700.woff2")
-      format("woff2"),
-    url("../fonts/franklin/franklin-normal-700-export/franklin-normal-700.woff")
-      format("woff"),
-    url("../fonts/franklin/franklin-normal-700-export/franklin-normal-700.ttf")
-      format("opentype");
+  src: 
+  url("../fonts/franklin/franklin-normal-700-export/franklin-normal-700.woff2")
+  format("woff2"),
+  url("../fonts/franklin/franklin-normal-700-export/franklin-normal-700.woff")
+  format("woff"),
+  url("../fonts/franklin/franklin-normal-700-export/franklin-normal-700.ttf")
+  format("opentype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "NYTFranklin Semibold";
-  src: url("../fonts/franklin/franklin-normal-600-export/franklin-normal-600.woff2")
-      format("woff2"),
-    url("../fonts/franklin/franklin-normal-600-export/franklin-normal-600.woff")
-      format("woff"),
-    url("../fonts/franklin/franklin-normal-600-export/franklin-normal-600.ttf")
-      format("opentype");
+  src: 
+  url("../fonts/franklin/franklin-normal-600-export/franklin-normal-600.woff2")
+  format("woff2"),
+  url("../fonts/franklin/franklin-normal-600-export/franklin-normal-600.woff")
+  format("woff"),
+  url("../fonts/franklin/franklin-normal-600-export/franklin-normal-600.ttf")
+  format("opentype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "NYTFranklin Medium";
-  src: url("../fonts/franklin/franklin-normal-500-export/franklin-normal-500.woff2")
-      format("woff2"),
-    url("../fonts/franklin/franklin-normal-500-export/franklin-normal-500.woff")
-      format("woff"),
-    url("../fonts/franklin/franklin-normal-500-export/franklin-normal-500.ttf")
-      format("opentype");
+  src: 
+  url("../fonts/franklin/franklin-normal-500-export/franklin-normal-500.woff2")
+  format("woff2"),
+  url("../fonts/franklin/franklin-normal-500-export/franklin-normal-500.woff")
+  format("woff"),
+  url("../fonts/franklin/franklin-normal-500-export/franklin-normal-500.ttf")
+  format("opentype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "NYTImperial Semibold";
-  src: url("../fonts/imperial/imperial-normal-600-export/imperial-normal-600.woff2")
-      format("woff2"),
-    url("../fonts/imperial/imperial-normal-600-export/imperial-normal-600.woff")
-      format("woff"),
-    url("../fonts/imperial/imperial-normal-600-export/imperial-normal-600.otf")
-      format("opentype");
+  src: 
+  url("../fonts/imperial/imperial-normal-600-export/imperial-normal-600.woff2")
+  format("woff2"),
+  url("../fonts/imperial/imperial-normal-600-export/imperial-normal-600.woff")
+  format("woff"),
+  url("../fonts/imperial/imperial-normal-600-export/imperial-normal-600.otf")
+  format("opentype");
   font-style: normal;
   font-weight: 400;
 }
+
 @font-face {
   font-family: "NYTImperial Regular";
-  src: url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.woff2")
-      format("woff2"),
-    url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.woff")
-      format("woff"),
-    url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.ttf")
-      format("opentype");
+  src: 
+  url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.woff2")
+  format("woff2"),
+  url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.woff")
+  format("woff"),
+  url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.ttf")
+  format("opentype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "NYTImperial Bold";
-  src: url("../fonts/imperial/imperial-normal-700-export/imperial-normal-700.woff2")
-      format("woff2"),
-    url("../fonts/imperial/imperial-normal-700-export/imperial-normal-700.woff")
-      format("woff"),
-    url("../fonts/imperial/imperial-normal-700-export/imperial-normal-700.ttf")
-      format("opentype");
+  src: 
+  url("../fonts/imperial/imperial-normal-700-export/imperial-normal-700.woff2")
+  format("woff2"),
+  url("../fonts/imperial/imperial-normal-700-export/imperial-normal-700.woff")
+  format("woff"),
+  url("../fonts/imperial/imperial-normal-700-export/imperial-normal-700.ttf")
+  format("opentype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "NYTImperial Regular";
-  src: url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.woff2")
-      format("woff2"),
-    url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.woff")
-      format("woff"),
-    url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.otf")
-      format("opentype");
+  src: 
+  url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.woff2")
+  format("woff2"),
+  url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.woff")
+  format("woff"),
+  url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.otf")
+  format("opentype");
   font-style: normal;
   font-weight: 400;
 }
@@ -224,7 +233,9 @@
   font-weight: 600;
   padding-bottom: 4px;
   display: inline-block;
-  border: 1px solid rgb(18, 18, 18);
+  border: 1px solid rgb(18, 
+  18, 
+  18);
   margin-bottom: 5px;
 }
 
@@ -241,6 +252,7 @@
   font-weight: 700;
   font-style: italic;
 }
+
 .article_normal_link {
   text-decoration: underline;
   color: #326891;
@@ -328,6 +340,7 @@
 .hero_image {
   width: 100%;
 }
+
 .hero_img_author {
   color: #888;
   font-size: 0.8125rem;
@@ -361,6 +374,7 @@ figure {
 header {
   margin-bottom: 40px;
 }
+
 .article_actions {
   display: inline-block;
   float: right;
@@ -416,9 +430,11 @@ header {
 .share_on_facebook img {
   height: 16px;
 }
+
 .twitter_logo {
   height: 16px;
 }
+
 .mail_logo {
   height: 16px;
 }
@@ -426,23 +442,29 @@ header {
 .share_logo {
   height: 16px;
 }
+
 .sharing_link {
   text-decoration: none;
   margin-right: 10px;
 }
+
 .social_actions {
   display: inline-block;
   vertical-align: top;
 }
+
 .other_actions {
   display: inline-block;
 }
+
 .bookmark_logo {
   height: 30px;
 }
+
 .bubble_logo {
   height: 35px;
 }
+
 .clear_float {
   clear: both;
 }
@@ -451,9 +473,11 @@ header {
   position: relative;
   bottom: 5px;
 }
+
 .bookmark_link {
   vertical-align: top;
 }
+
 .comment_number {
   color: rgb(0, 0, 0);
   font-size: 0.75rem;
@@ -483,6 +507,7 @@ header {
 p {
   margin-bottom: 0.9375rem;
 }
+
 .nav_container {
   position: fixed;
   width: 100%;
@@ -495,6 +520,7 @@ p {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+
 .editors_pick {
   float: right;
   max-width: 210px;
@@ -502,6 +528,7 @@ p {
   top: 800px;
   right: 60px;
 }
+
 main {
   width: 70%;
   margin: 0 auto;
@@ -524,6 +551,7 @@ main {
   cursor: pointer;
   display: block;
 }
+
 .pick_title:hover {
   text-decoration: underline;
 }
@@ -734,6 +762,7 @@ main {
   bottom: 10px;
   position: relative;
 }
+
 .emb_img_1_fig {
   width: 120%;
   margin: 0 auto;
@@ -773,10 +802,12 @@ main {
   max-width: 600px;
   color: rgb(102, 102, 102);
 }
+
 .article_footer_top a {
   color: rgb(102, 102, 102);
   text-decoration: underline;
 }
+
 .article_footer_top a:hover {
   text-decoration: none;
 }
@@ -785,6 +816,7 @@ main {
   display: inline-block;
   width: 330px;
 }
+
 .a_f_b_right {
   float: right;
 }
@@ -838,6 +870,7 @@ main {
   width: 31%;
   margin: 20px 0.9%;
 }
+
 .clear_float {
   clear: both;
 }
@@ -870,10 +903,12 @@ main {
 .figcaption {
   float: right;
   font-family: "NYTFranklin Medium";
-
   margin-left: 50px;
   margin-top: -3px;
-  color: rgb(153, 153, 153);
+  color: 
+  rgb(153, 
+  153, 
+  153);
   font-size: 0.6em;
   line-height: 1.23em;
 }
@@ -1005,6 +1040,7 @@ main {
   text-decoration: none;
   float: right;
 }
+
 footer {
   width: 70%;
   margin: 0 auto;
@@ -1088,25 +1124,6 @@ footer::after {
   line-height: 16px;
 }
 
-.footer_column a:hover,
-.f_a_t_i_title:hover {
-  text-decoration: underline;
-}
-.footer_column h4,
-aside h4.column_title {
-  margin-bottom: 10px;
-  color: rgb(51, 51, 51);
-  font-size: 13px;
-  font-weight: 700;
-  font-family: "NYTFranklin Bold";
-  height: 25px;
-  line-height: 15px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
-  text-transform: uppercase;
-  width: 150px;
-}
 .f_a_t_i_title {
   color: rgb(0, 0, 0);
   display: inline-block;
@@ -1124,6 +1141,27 @@ aside h4.column_title {
   padding-bottom: 0px;
 }
 
+.footer_column a:hover,
+.f_a_t_i_title:hover {
+  text-decoration: underline;
+}
+
+.footer_column h4,
+aside h4.column_title {
+  margin-bottom: 10px;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "NYTFranklin Bold";
+  height: 25px;
+  line-height: 15px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  text-transform: uppercase;
+  width: 150px;
+}
+
 .f_a_t_i_icon {
   display: inline-block;
   width: 16px;
@@ -1137,7 +1175,10 @@ aside h4.column_title {
 
 .f_a_b_i_1 a,
 .f_a_b_i_2 a {
-  color: rgb(0, 0, 0);
+  color:
+   rgb(0,
+    0, 
+    0);
   display: inline-block;
   font-family: "NYTFranklin Medium";
   -webkit-text-decoration-line: none;
