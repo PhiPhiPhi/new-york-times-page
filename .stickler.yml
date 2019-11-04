@@ -3,6 +3,6 @@ linters:
     config: 'stylelint.config.js'
 files:
     ignore:
-       - 'css/reset.css'  #For ignoring a file/folder
+       - 'assets/fonts/'  #For ignoring a file/folder
 fixers:
     enable: true   #This is the magic part of out fixing your errors
