@@ -1,8 +1,4 @@
 linters:
   stylelint:
     config: 'stylelint.config.js'
-files:
-    ignore:
-       - 'assets/fonts/'  #For ignoring a file/folder
-fixers:
-    enable: true   #This is the magic part of out fixing your errors
+    
