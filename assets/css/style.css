@@ -1570,3 +1570,31 @@ aside h4.column_title {
   width: 90%;
   margin: 20px auto;
 }
+
+.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #000;
+  padding-top: 15px;
+}
+
+.sticky-right {
+  text-transform: uppercase;
+  float: right;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.sticky-icon {
+  float: right;
+  margin-right: 150px;
+}
+
+.sticky-icon img {
+  width: 20px;
+}
