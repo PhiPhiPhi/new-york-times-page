@@ -1,0 +1,1600 @@
+@font-face {
+  font-family: "NYTCheltenham BoldItalic";
+  src:
+    url("../fonts/cheltenham/cheltenham-italic-700-export/cheltenham-italic-700.woff2") format("woff2"),
+    url("../fonts/cheltenham/cheltenham-italic-700-export/cheltenham-italic-700.woff") format("woff"),
+    url("../fonts/cheltenham/cheltenham-italic-700-export/cheltenham-italic-700.ttf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NYTFranklin Light";
+  src:
+    url("../fonts/franklin/franklin-normal-300-export/franklin-normal-300.woff2")
+    format("woff2"),
+    url("../fonts/franklin/franklin-normal-300-export/franklin-normal-300.woff")
+    format("woff"),
+    url("../fonts/franklin/franklin-normal-300-export/franklin-normal-300.ttf")
+    format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NYTCheltenham Bold";
+  src:
+    url("../fonts/cheltenham/cheltenham-normal-700-export/cheltenham-normal-700.woff2")
+    format("woff2"),
+    url("../fonts/cheltenham/cheltenham-normal-700-export/cheltenham-normal-700.woff")
+    format("woff"),
+    url("../fonts/cheltenham/cheltenham-normal-700-export/cheltenham-normal-700.ttf")
+    format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "cheltenham-small-normal";
+  src:
+    url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.woff2")
+    format("woff2"),
+    url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.woff")
+    format("woff"),
+    url("../fonts/cheltenham/cheltenham-small-normal-400-export/cheltenham-small-normal-400.ttf")
+    format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NYTFranklin Bold";
+  src:
+    url("../fonts/franklin/franklin-normal-700-export/franklin-normal-700.woff2")
+    format("woff2"),
+    url("../fonts/franklin/franklin-normal-700-export/franklin-normal-700.woff")
+    format("woff"),
+    url("../fonts/franklin/franklin-normal-700-export/franklin-normal-700.ttf")
+    format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NYTFranklin Semibold";
+  src:
+    url("../fonts/franklin/franklin-normal-600-export/franklin-normal-600.woff2")
+    format("woff2"),
+    url("../fonts/franklin/franklin-normal-600-export/franklin-normal-600.woff")
+    format("woff"),
+    url("../fonts/franklin/franklin-normal-600-export/franklin-normal-600.ttf")
+    format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NYTFranklin Medium";
+  src:
+    url("../fonts/franklin/franklin-normal-500-export/franklin-normal-500.woff2")
+    format("woff2"),
+    url("../fonts/franklin/franklin-normal-500-export/franklin-normal-500.woff")
+    format("woff"),
+    url("../fonts/franklin/franklin-normal-500-export/franklin-normal-500.ttf")
+    format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NYTImperial Semibold";
+  src:
+    url("../fonts/imperial/imperial-normal-600-export/imperial-normal-600.woff2")
+    format("woff2"),
+    url("../fonts/imperial/imperial-normal-600-export/imperial-normal-600.woff")
+    format("woff"),
+    url("../fonts/imperial/imperial-normal-600-export/imperial-normal-600.otf")
+    format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NYTImperial Regular";
+  src:
+    url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.woff2")
+    format("woff2"),
+    url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.woff")
+    format("woff"),
+    url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.ttf")
+    format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NYTImperial Bold";
+  src:
+    url("../fonts/imperial/imperial-normal-700-export/imperial-normal-700.woff2")
+    format("woff2"),
+    url("../fonts/imperial/imperial-normal-700-export/imperial-normal-700.woff")
+    format("woff"),
+    url("../fonts/imperial/imperial-normal-700-export/imperial-normal-700.ttf")
+    format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NYTImperial Regular";
+  src:
+    url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.woff2")
+    format("woff2"),
+    url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.woff")
+    format("woff"),
+    url("../fonts/imperial/imperial-normal-500-export/imperial-normal-500.otf")
+    format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-nav {
+  position: relative;
+  border-bottom: 1px solid #e2e2e2;
+  display: block;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  visibility: visible;
+  color: #333;
+}
+
+.center-area {
+  margin: 0 auto;
+  max-width: 1605px;
+  background: transparent;
+  border-bottom: 0;
+  padding: 6px 15px 5px;
+  position: relative;
+  display: block;
+  border: 0;
+  font: inherit;
+  visibility: visible;
+  color: #333;
+}
+
+.menu {
+  display: inline-block;
+  height: 16px;
+  vertical-align: sub;
+  width: 16px;
+}
+
+.search {
+  display: inline-block;
+  height: 16px;
+  vertical-align: sub;
+  width: 16px;
+  margin-left: 30px;
+}
+
+.space-cosmos {
+  font-size: 14.25px;
+  font-family:
+    "NYTFranklin Bold",
+    helvetica,
+    arial,
+    sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+}
+
+.nyt-logo {
+  width: 195px;
+  height: 5px;
+  text-align: center;
+  margin: 0;
+  display: inline-block;
+  color: black;
+}
+
+.subscribe {
+  color:
+    rgb(
+      51,
+      51,
+      51
+    );
+  font-weight: 600;
+  font-size: 0.875rem;
+  font-family:
+    "NYTFranklin Semibold",
+    helvetica,
+    arial,
+    sans-serif;
+  margin: 2px 19px 0 350px;
+  height: 12px;
+  letter-spacing: 0.0125rem;
+}
+
+.login {
+  background-color:
+    rgb(
+      51,
+      51,
+      51
+    );
+  border-color:
+    rgb(
+      0,
+      0,
+      0
+    );
+  color:
+    rgb(
+      255,
+      255,
+      255
+    );
+  border-radius: 3px;
+  cursor: pointer;
+  font-family:
+    "NYTFranklin Semibold",
+    helvetica,
+    arial,
+    sans-serif;
+  transition: all 0.6s ease 0s;
+  white-space: nowrap;
+  vertical-align: middle;
+  line-height: 15px;
+  width: 64px;
+  height: 32px;
+  font-size: 0.8125rem;
+  letter-spacing: 0.0125rem;
+  font-weight: 600;
+  padding-bottom: 4px;
+  display: inline-block;
+  border:
+    1px solid rgb(
+      18,
+      18,
+      18
+    );
+  margin-bottom: 5px;
+}
+
+.heading {
+  position: relative;
+  width: 450px;
+  max-width: 700px;
+  margin: 100px auto 1rem auto;
+  font-size: 1.25rem;
+  line-height: 3rem;
+  color: #121212;
+  font-family:
+    "NYTCheltenham BoldItalic",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.article_normal_link {
+  text-decoration: underline;
+  color: #326891;
+}
+
+.sidebar_1_title {
+  font-family:
+    "NYTFranklin Bold",
+    helvetica,
+    arial,
+    sans-serif;
+  font-weight: 700;
+  color:
+    rgb(
+      0,
+      0,
+      0
+    );
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  border-bottom:
+    1px solid rgb(
+      226,
+      226,
+      226
+    );
+}
+
+.picked_article {
+  margin-bottom: -30px;
+  width: 220px;
+}
+
+#picked_article_3 {
+  position: relative;
+  top: -15px;
+}
+
+#pick_title_2 {
+  bottom: 60px;
+}
+
+#pick_title_3 {
+  top: -70px;
+}
+
+.pick_thumbnail {
+  display: block;
+  width: 75px;
+  margin-left: 0;
+}
+
+#nav-right {
+  float: right;
+  position: relative;
+  top: -33px;
+}
+
+#nav-left {
+  float: left;
+  position: relative;
+  top: 5px;
+}
+
+.hero_figure {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+#nav-center {
+  margin: 0 auto;
+  position: relative;
+  top: 2px;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.nyt-logo img {
+  width: inherit;
+}
+
+.article_header,
+.article_body {
+  margin-bottom: 20px;
+  color: #121212;
+  width: 600px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font: inherit;
+  font-size: 100%;
+}
+
+.hero_image {
+  width: 100%;
+}
+
+.hero_img_author {
+  color: #888;
+  font-size: 0.8125rem;
+  font-family: inherit;
+  line-height: 1.125rem;
+  -webkit-letter-spacing: 0.01em;
+  -moz-letter-spacing: 0.01em;
+  -ms-letter-spacing: 0.01em;
+  letter-spacing: 0.01em;
+}
+
+figure {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+.hero_image_caption {
+  color: #666;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  font-family:
+    "NYT  Imperial Regular",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  margin: 10px 20px 0;
+  text-align: left;
+  display: block;
+  margin-left: 0;
+  max-width: 900px;
+  vertical-align: baseline;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+.article_actions {
+  display: inline-block;
+  float: right;
+}
+
+.article_author {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.02em;
+  margin: 0;
+  font-family:
+    "NYTFranklin Bold",
+    helvetica,
+    arial,
+    sans-serif;
+  font-weight: 700;
+  color: #333;
+}
+
+.article_author_name {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ccc;
+  text-decoration-color: #ccc;
+}
+
+.article_author_block {
+  margin-bottom: 25px;
+}
+
+.published_date {
+  font-family:
+    "NYTFranklin Medium",
+    helvetica,
+    arial,
+    sans-serif;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin-top: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sharing {
+  border-radius: 50%;
+  background-color: #eee;
+  border: 1px #eee solid;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+}
+
+.share_on_facebook img {
+  height: 16px;
+}
+
+.twitter_logo {
+  height: 16px;
+}
+
+.mail_logo {
+  height: 16px;
+}
+
+.share_logo {
+  height: 16px;
+}
+
+.sharing_link {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.social_actions {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.other_actions {
+  display: inline-block;
+}
+
+.bookmark_logo {
+  height: 30px;
+}
+
+.bubble_logo {
+  height: 35px;
+}
+
+.clear_float {
+  clear: both;
+}
+
+.bubble_link {
+  position: relative;
+  bottom: 5px;
+}
+
+.bookmark_link {
+  vertical-align: top;
+}
+
+.comment_number {
+  color:
+    rgb(
+      0,
+      0,
+      0
+    );
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  font-family:
+    "NYTFranklin Semibold",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  vertical-align: baseline;
+  text-transform: uppercase;
+  position: relative;
+  right: 38px;
+  top: 9px;
+  float: right;
+  z-index: 9999;
+}
+
+.main-article {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-family:
+    "NYTimperial Regular",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  color: #333;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+p {
+  margin-bottom: 0.9375rem;
+}
+
+.nav_container {
+  position: fixed;
+  width: 100%;
+  height: 43px;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  background-color: #fff;
+  border-bottom: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.editors_pick {
+  float: right;
+  max-width: 210px;
+  position: relative;
+  top: 800px;
+  right: 60px;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.pick_title,
+.pick_title:hover {
+  position: relative;
+  left: 80px;
+  bottom: 60px;
+  vertical-align: top;
+  font-family:
+    "cheltenham-small-normal",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  width: calc(100% - 85px);
+  margin: auto 0 auto 10px;
+  color:
+    rgb(
+      51,
+      51,
+      51
+    );
+  padding-bottom: 16px;
+  cursor: pointer;
+  display: block;
+}
+
+.pick_title:hover {
+  text-decoration: underline;
+}
+
+.account-container {
+  font-size: 0.9375rem;
+  border:
+    1px solid rgb(
+      204,
+      204,
+      204
+    );
+  border-radius: 2px;
+  padding: 0.75rem;
+  line-height: 1.25rem;
+  font-family:
+    "NYTfranklin",
+    helvetica,
+    arial,
+    sans-serif;
+  max-width: 500px;
+  color: #333;
+  margin-top: 50px;
+  position: relative;
+  left: 365px;
+}
+
+.inner-container {
+  font-weight: bold;
+}
+
+.illustrations-container {
+  width: 946px;
+  height: 723px;
+  margin: 30px 0;
+  position: relative;
+  right: 150px;
+}
+
+.interactive-credit p {
+  font-size: 0.875rem;
+  line-height: 18px;
+  line-height: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+  font-family:
+    "NYTFranklin Medium",
+    arial,
+    helvetica,
+    sans-serif;
+  position: relative;
+  top: 30px;
+}
+
+.interactive-credit::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  margin: 0 auto;
+  width: 60px;
+  padding-top: 15px;
+  border-bottom: 1px solid #000;
+}
+
+.illustrations-heading {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 2px;
+  font-family:
+    "NYTCheltenham Bold",
+    georgia,
+    times new roman,
+    times,
+    serif;
+}
+
+.summary-text {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #666;
+}
+
+.infiltration {
+  font-family:
+    "NYTcheltenham",
+    georgia,
+    times new roman,
+    times,
+    serif;
+}
+
+.universe-cube {
+  top: 30.8264%;
+  left: 0.0436%;
+  width: 228px;
+  height: 120px;
+  position: absolute;
+  color: #333;
+}
+
+.paragraph {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  font-style: normal;
+  font-family:
+    "NYTFranklin Light",
+    arial,
+    helvetica,
+    sans-serif;
+  width: 228px;
+}
+
+.paragraph-span {
+  font-size: 11px;
+  padding-right: 10px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: black;
+  font-family:
+    "NYTFranklin Bold",
+    arial,
+    helvetica,
+    sans-serif;
+}
+
+.enough-cube {
+  top: 30.8264%;
+  left: 25.5619%;
+  width: 228px;
+  height: 120px;
+  position: absolute;
+  color: #333;
+}
+
+.distant-cube {
+  top: 30.8264%;
+  left: 51.08%;
+  width: 228px;
+  height: 120px;
+  position: absolute;
+  color: #333;
+}
+
+.coffee-cube {
+  top: 30.8264%;
+  left: 76.5982%;
+  width: 228px;
+  height: 120px;
+  position: absolute;
+  color: #333;
+}
+
+.time-cube {
+  top: 69.4375%;
+  left: 0.0436%;
+  width: 228px;
+  height: 120px;
+  position: absolute;
+  color: #333;
+}
+
+#inflation-width {
+  width: 940px;
+}
+
+.inflation-cube {
+  top: 69.4375%;
+  left: 25.5619%;
+  width: 228px;
+  height: 120px;
+  position: absolute;
+  color: #333;
+}
+
+.fluctuation-cube {
+  top: 69.4375%;
+  left: 51.08%;
+  width: 228px;
+  height: 120px;
+  position: absolute;
+  color: #333;
+}
+
+.expansion-cube {
+  top: 69.4375%;
+  left: 76.5982%;
+  width: 228px;
+  height: 120px;
+  position: absolute;
+  color: #333;
+}
+
+.section_title {
+  font-family:
+    "NYTImperial Bold",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  display: block;
+  padding: 20px 0;
+}
+
+.article_video_container {
+  margin: 43px auto;
+}
+
+#article_video_size {
+  width: 600px;
+  height: 358px;
+  border: 0;
+}
+
+.video_caption {
+  color: #666;
+  font-family:
+    "NYTImperial Regular",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  margin: 10px 0;
+  text-align: left;
+}
+
+#video_caption {
+  margin-top: -7px;
+}
+
+.video_caption_top {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  display: inline-block;
+}
+
+.video_caption_bottom {
+  color: #888;
+  font-size: 0.8125rem;
+  display: inline-block;
+  letter-spacing: 0.01em;
+  bottom: 10px;
+  position: relative;
+}
+
+.emb_img_1_fig {
+  width: 120%;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  right: 80px;
+}
+
+.emb_img_1 {
+  width: 100%;
+}
+
+.atcl_img_1_auth {
+  color: #888;
+  font-size: 0.8125rem;
+}
+
+.emb_img_1_cpt {
+  width: 95%;
+}
+
+.emb_img_1_desc {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  display: inline-block;
+  color: #666;
+}
+
+.article_footer_top {
+  margin: 2em 0;
+  font-family:
+    "NYTFranklin Medium",
+    helvetica,
+    arial,
+    sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  width: calc(100% - 40px);
+  max-width: 600px;
+  color:
+    rgb(
+      102,
+      102,
+      102
+    );
+}
+
+.article_footer_top a {
+  color:
+    rgb(
+      102,
+      102,
+      102
+    );
+  text-decoration: underline;
+}
+
+.footer_column a {
+  display: block;
+  margin-right: 50px;
+  color:
+    rgb(
+      0,
+      0,
+      0
+    );
+  font-family:
+    "NYTFranklin Medium",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  -webkit-text-decoration-line: none;
+  -webkit-text-decoration-style: initial;
+  -webkit-text-decoration-color: initial;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+}
+
+.f_a_b_i_1 a,
+.f_a_b_i_2 a {
+  color:
+    rgb(
+      0,
+      0,
+      0
+    );
+  display: inline-block;
+  font-family:
+    "NYTFranklin Medium",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  -webkit-text-decoration-line: none;
+  -webkit-text-decoration-style: initial;
+  -webkit-text-decoration-color: initial;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 11px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 21px;
+}
+
+.footer_footer a {
+  color:
+    rgb(
+      153,
+      153,
+      153
+    );
+  font-family:
+    "NYTFranklin Medium",
+    helvetica,
+    arial,
+    sans-serif;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  -webkit-text-decoration-line: none;
+  -webkit-text-decoration-style: initial;
+  -webkit-text-decoration-color: initial;
+  text-decoration: none;
+  white-space: nowrap;
+  float: left;
+  font-size: 11px;
+}
+
+.footer-account h5 > a {
+  color: #000;
+  font-weight: bold;
+}
+
+.footer_column a:hover {
+  display: block;
+  margin-right: 50px;
+  color:
+    rgb(
+      0,
+      0,
+      0
+    );
+  font-family:
+    "NYTFranklin Medium",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  -webkit-text-decoration-line: none;
+  -webkit-text-decoration-style: initial;
+  -webkit-text-decoration-color: initial;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+}
+
+.article_footer_top a:hover {
+  text-decoration: none;
+}
+
+.a_f_b_left {
+  display: inline-block;
+  width: 330px;
+}
+
+.a_f_b_right {
+  float: right;
+}
+
+.a_f_b_left button {
+  background-color:
+    rgb(
+      86,
+      123,
+      149
+    );
+  border:
+    1px solid rgb(
+      50,
+      104,
+      145
+    );
+  border-radius: 3px;
+  color: white;
+  display: block;
+  font-family:
+    "NYTfranklin",
+    helvetica,
+    arial,
+    sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 0;
+  text-transform: uppercase;
+  transition: background-color 0.6s ease 0s;
+  width: 100%;
+}
+
+.sharing_footer {
+  padding: 0 !important;
+}
+
+.card-container h4 {
+  padding: 60px 0 20px;
+  font-size: 1.125rem;
+  font-family:
+    "NYTfranklin",
+    helvetica,
+    arial,
+    sans-serif;
+  font-weight: 600;
+  line-height: 140%;
+  text-align: center;
+  color: #333;
+}
+
+.card-inner {
+  position: relative;
+  padding: 0 0 24px;
+  font-size: 1.125rem;
+  font-family:
+    "NYTfranklin",
+    helvetica,
+    arial,
+    sans-serif;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.card-innermost {
+  width: 379px;
+  height: 595px;
+  float: left;
+  margin: 20px 0.9%;
+}
+
+.border-div {
+  border-left:
+    1px solid rgb(
+      226,
+      226,
+      226
+    );
+  margin: 0 0 0 15px;
+}
+
+.border-div-2 {
+  border-left:
+    1px solid rgb(
+      226,
+      226,
+      226
+    );
+  margin: 0 0 0 5px;
+}
+
+.image-1 img {
+  width: 100%;
+  position: relative;
+}
+
+.image-2 img {
+  width: 100%;
+  position: relative;
+}
+
+.image-3 img {
+  width: 100%;
+  position: relative;
+}
+
+.figcaption {
+  float: right;
+  font-family:
+    "NYTFranklin Medium",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  margin-left: 50px;
+  margin-top: -3px;
+  color:
+    rgb(
+      153,
+      153,
+      153
+    );
+  font-size: 0.6em;
+  line-height: 1.23em;
+}
+
+.article-div {
+  margin-top: 36px;
+  margin-left: 10px;
+}
+
+.article-heading {
+  color:
+    rgb(
+      51,
+      51,
+      51
+    );
+  line-height: 125%;
+  font-family:
+    "cheltenham-small-normal",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 90%;
+  margin-top: 16px;
+}
+
+.footer-account::before {
+  content: "";
+  position: absolute;
+  background-color:
+    rgb(
+      226,
+      226,
+      226
+    );
+  width: 70%;
+  height: 1px;
+  margin: -80px 0 0 -682px;
+}
+
+.article-body {
+  font-size: 1rem;
+  font-family:
+    "NYTimperial Regular",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  margin-top: 24px;
+  font-weight: normal;
+  color:
+    rgb(
+      85,
+      85,
+      85
+    );
+}
+
+.article-footer {
+  font-family:
+    "NYTfranklin",
+    helvetica,
+    arial,
+    sans-serif;
+  color:
+    rgb(
+      85,
+      85,
+      185
+    );
+  font-size: 0.875rem;
+  line-height: 140%;
+  margin: 36px 0 12px 8px;
+  font-weight: lighter;
+}
+
+.footer-account {
+  clear: both;
+  width: 1200px;
+  height: 275px;
+  text-align: center;
+  padding: 9px 0 80px;
+  margin: 10px auto;
+}
+
+.footer-account h4 {
+  font-size: 1.5rem;
+  font-family:
+    "NYTcheltenham",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  line-height: 145%;
+  font-weight: normal;
+  margin-bottom: 32px;
+  text-align: center;
+  color: #333;
+}
+
+.footer-account button {
+  width: 240px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family:
+    "NYTfranklin",
+    helvetica,
+    arial,
+    sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  background-color:
+    rgb(
+      51,
+      51,
+      51
+    );
+  color:
+    rgb(
+      255,
+      255,
+      255
+    );
+  padding: 10px;
+  -webkit-appearance: button;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.footer-account h5 {
+  font-family:
+    "NYTfranklin",
+    helvetica,
+    arial,
+    sans-serif;
+  margin-top: 24px;
+  font-weight: normal;
+  font-size: 15px;
+  color:
+    rgb(
+      51,
+      51,
+      51
+    );
+  text-align: center;
+}
+
+.card-container::before {
+  position: absolute;
+  content: "";
+  width: 68%;
+  display: inline-block;
+  padding-top: 15px;
+  border-bottom:
+    1px solid rgb(
+      226,
+      226,
+      226
+    );
+}
+
+.card-innermost-separator::before {
+  content: "";
+  position: absolute;
+  background-color: #e2e2e2;
+  width: 1px;
+  bottom: 92px;
+  height: 83%;
+  margin-left: -13px;
+}
+
+.go_to_home_page {
+  color:
+    rgb(
+      86,
+      123,
+      149
+    );
+  font-family:
+    "NYTFranklin Light",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  -webkit-text-decoration-line: none;
+  -webkit-text-decoration-style: initial;
+  -webkit-text-decoration-color: initial;
+  text-decoration: none;
+  float: right;
+}
+
+footer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+footer::before {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color:
+    rgb(
+      226,
+      226,
+      226
+    );
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color:
+    rgb(
+      226,
+      226,
+      226
+    );
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0;
+}
+
+.footer_aside::before {
+  content: "";
+  position: absolute;
+  background-color:
+    rgb(
+      226,
+      226,
+      226
+    );
+  width: 1px;
+  height: 36%;
+  margin-left: -13px;
+}
+
+footer::after {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color:
+    rgb(
+      226,
+      226,
+      226
+    );
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0;
+}
+
+.footer_nav {
+  padding-top: 15px;
+}
+
+.footer_left {
+  width: 85%;
+  float: left;
+}
+
+.footer_aside {
+  width: 15%;
+  float: right;
+}
+
+.footer_main {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.footer_column {
+  width: 15%;
+  float: left;
+  margin-right: 50px;
+}
+
+.f_a_t_i_title {
+  color:
+    rgb(
+      0,
+      0,
+      0
+    );
+  display: inline-block;
+  font-family:
+    "NYTImperial Bold",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  -webkit-text-decoration-line: none;
+  -webkit-text-decoration-style: initial;
+  -webkit-text-decoration-color: initial;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  padding-bottom: 0;
+}
+
+.footer_column a:hover,
+.f_a_t_i_title:hover {
+  text-decoration: underline;
+}
+
+.footer_column h4,
+aside h4.column_title {
+  margin-bottom: 10px;
+  color:
+    rgb(
+      51,
+      51,
+      51
+    );
+  font-size: 13px;
+  font-weight: 700;
+  font-family:
+    "NYTImperial Bold",
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  height: 25px;
+  line-height: 15px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  text-transform: uppercase;
+  width: 150px;
+}
+
+.f_a_t_i_icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: text-top;
+}
+
+.footer_aside_top_item {
+  margin: 5px 0;
+}
+
+.f_a_b_i_1 {
+  margin-bottom: 40px;
+}
+
+.f_a_b_i_1::after {
+  position: absolute;
+  content: "";
+  width: 8%;
+  display: block;
+  padding-top: 20px;
+  border-bottom:
+    1px solid rgb(
+      226,
+      226,
+      226
+    );
+}
+
+.footer_footer {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #000;
+  padding-top: 15px;
+}
+
+.sticky-right {
+  text-transform: uppercase;
+  float: right;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.sticky-icon {
+  float: right;
+  margin-right: 150px;
+}
+
+.sticky-icon img {
+  width: 20px;
+}
